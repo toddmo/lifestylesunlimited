@@ -1,8 +1,5 @@
 @startuml single-family
 
-header
-<img src="http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/toddmo/lifestylesunlimited/master/single-family.puml">
-endheader
 
 start
 :ClickServlet.handleRequest();
