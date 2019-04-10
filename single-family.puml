@@ -1,9 +1,21 @@
 @startuml single-family
 
+skinparam BackgroundColor #dddddd
+
+skinparam BoundaryBorderColor red
+
+skinparam juju {
+    BackgroundColor red;
+}
 
 start
 :ClickServlet.handleRequest();
 :new page;
+
+
+/''/
+
+
 if (Page.onSecurityCheck) then (true)
   :Page.onInit();
   if (isForward?) then (no)
@@ -21,6 +33,8 @@ if (Page.onSecurityCheck) then (true)
   endif
 else (false)
 endif
+
+
 '*hjkhjk*/
 if (do redirect?) then (yes)
   :redirect process;
