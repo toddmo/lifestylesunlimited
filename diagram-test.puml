@@ -1,12 +1,7 @@
 @startuml single-family
 
-skinparam BackgroundColor #dddddd
+!include theme.iuml
 
-skinparam BoundaryBorderColor red
-
-skinparam juju {
-    BackgroundColor red;
-}
 
 start
 :ClickServlet.handleRequest();

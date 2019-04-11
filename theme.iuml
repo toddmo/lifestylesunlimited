@@ -1,0 +1,46 @@
+@startuml Theme
+
+skinparam {
+  /'backgroundColor Gainsboro'/
+  BorderColor red
+  
+}
+
+skinparam Title {
+  FontColor Ivory
+  BackgroundColor DodgerBlue
+  BorderColor Black
+  BorderRoundCorner 20
+}
+
+skinparam activity {
+  StartColor Blue
+  EndColor Red
+  BackgroundColor Ivory
+  BorderColor CornflowerBlue
+  ArrowColor dimgray
+  DiamondBackgroundColor Ivory
+  DiamondBorderColor CornflowerBlue
+
+  BackgroundColor<< Exception >> Red
+	BorderColor<< Exception >> White
+}
+
+skinparam Swimlane {
+  BorderColor CornflowerBlue 
+}
+
+skinparam Partition {
+  BackgroundColor Peru
+  BorderColor CornflowerBlue
+  BorderThickness 1
+  FontColor white
+  FontSize 16
+}
+skinparam Note {
+  BackgroundColor Ivory
+  BorderColor CornflowerBlue
+}
+
+
+@enduml

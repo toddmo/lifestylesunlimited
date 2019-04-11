@@ -1,0 +1,17 @@
+@startuml Inspection
+!include theme.iuml
+
+Title Inspection
+
+start
+fork
+:Do Inspection;
+fork again
+:7-10 Days>
+<<Exception>>:What happens here?;
+end fork
+end
+
+!include footer.iuml
+
+@enduml
