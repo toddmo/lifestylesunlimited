@@ -1,0 +1,28 @@
+@startuml analysis
+
+	!include theme.iuml
+
+	Title Analysis
+
+	start
+
+	:calculate income;
+	note right
+		should be $200-$600/mo
+	end note
+
+	:calculate COC;
+	note right
+		should be 8-30%
+		====
+		inflation is 3-4%
+	end note
+
+	:calculate equity gain;
+	note right: should be 100%
+
+	end
+
+	!include footer.iuml
+
+@enduml

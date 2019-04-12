@@ -1,0 +1,23 @@
+@startuml challenge-program
+
+	!include theme.iuml
+
+	Title ChallengeProgram
+
+	start
+
+		:$7000;
+
+		repeat
+			fork
+			:work with coaches;
+			fork again
+			:1 year;>
+			end fork
+		repeat while ($2000)
+
+	end
+
+	!include footer.iuml
+
+@enduml

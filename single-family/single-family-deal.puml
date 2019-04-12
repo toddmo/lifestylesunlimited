@@ -1,0 +1,42 @@
+@startuml single-family-deal
+
+	!include theme.iuml
+
+	Title Single Family Deal
+
+	start
+
+	:find;
+	:compare;
+	:analyse;
+	:visit;
+	:contract;
+	:inspect;
+	:close;
+	fork
+		repeat
+			fork
+				:rehab;
+			fork again
+				:lease;
+			end fork
+			-> move in;
+			fork
+				:maintain;
+			fork again
+				repeat
+					:collect rent;
+				repeat while(rent paid?)
+				:evict;
+			end fork
+			-> move out;
+		repeat while(keep?)
+	fork again
+		:1-3 years;>
+	end fork
+	:sell;
+	end
+
+	!include footer.iuml
+
+@enduml

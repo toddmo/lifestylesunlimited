@@ -7,20 +7,35 @@ skinparam {
 }
 
 skinparam Title {
-  FontColor Ivory
-  BackgroundColor DodgerBlue
-  BorderColor Black
+  FontColor White
+  BackgroundColor DarkSeaGreen
+  BorderColor CornflowerBlue
   BorderRoundCorner 20
 }
 
 skinparam activity {
-  StartColor Blue
-  EndColor Red
   BackgroundColor Ivory
   BorderColor CornflowerBlue
-  ArrowColor dimgray
-  DiamondBackgroundColor Ivory
-  DiamondBorderColor CornflowerBlue
+  FontColor DarkGray
+
+  Arrow {
+    Color dimgray
+    FontColor dimgray
+  }
+
+  Start {
+    Color Blue
+  }
+
+  End {
+    Color Red
+  }
+
+  Diamond {
+    BackgroundColor Ivory
+    BorderColor CornflowerBlue
+    FontColor DarkGray
+  }
 
   BackgroundColor<< Exception >> Red
 	BorderColor<< Exception >> White
@@ -31,16 +46,16 @@ skinparam Swimlane {
 }
 
 skinparam Partition {
-  BackgroundColor Peru
+  BackgroundColor DarkSeaGreen
   BorderColor CornflowerBlue
   BorderThickness 1
-  FontColor white
+  FontColor White
   FontSize 16
 }
 skinparam Note {
-  BackgroundColor Ivory
+  BackgroundColor LightSteelBlue
   BorderColor CornflowerBlue
+  FontColor White
 }
-
 
 @enduml
