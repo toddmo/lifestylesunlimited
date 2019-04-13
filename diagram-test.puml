@@ -1,7 +1,8 @@
-@startuml single-family
+@startuml diagram-test
 
 !include theme.iuml
 
+title Diagram Test
 
 start
 :ClickServlet.handleRequest();
