@@ -2,7 +2,7 @@
 
 	!include theme.iuml
 
-	Title ChallengeProgram
+	Title Challenge Program
 
 	start
 
@@ -12,7 +12,7 @@
 			fork
 			:work with coaches;
 			fork again
-			:1 year;>
+			:1 year>
 			end fork
 		repeat while ($2000)
 

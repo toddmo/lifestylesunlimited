@@ -7,9 +7,9 @@ skinparam {
 }
 
 skinparam Title {
-  FontColor White
-  BackgroundColor DarkSeaGreen
-  BorderColor CornflowerBlue
+  FontColor Navy
+  BackgroundColor PaleGoldenRod
+  BorderColor Navy
   BorderRoundCorner 20
 }
 
@@ -24,7 +24,7 @@ skinparam activity {
   }
 
   Start {
-    Color Blue
+    Color Navy
   }
 
   End {

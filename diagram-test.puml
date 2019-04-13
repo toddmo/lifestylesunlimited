@@ -20,7 +20,7 @@ if (Page.onSecurityCheck) then (true)
 	endif
 	
 	if (isPost?) then (yes)
-	  :Page.onPost();
+	  [[http://plantuml.com]]:Page.onPost(); /'hyperlinks work in svg!'/
 	else (no)
 	  :Page.onGet();
 	endif

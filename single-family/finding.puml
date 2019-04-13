@@ -1,0 +1,25 @@
+@startuml finding
+
+	!include theme.iuml
+
+	Title Finding
+
+	start
+
+		:close by;
+		note right:same sub-division
+
+		:listed recently;
+		note right: within 3-9 months
+
+		:similar size;
+		note right: ± 300 square feet
+
+		:sale prices;
+		note right: price ≠ value
+
+	end
+
+	!include footer.iuml
+
+@enduml
