@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="393px" preserveAspectRatio="none" style="width:362px;height:393px;" version="1.1" viewBox="0 0 362 393" width="362px" zoomAndPan="magnify"><defs><style type="text/css"><![CDATA[path:hover { stroke: #0000FF !important;}]]></style><filter height="300%" id="f16ppz6nq2p1xi" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><a target="_top" xlink:actuate="onRequest" xlink:href="../index.svg" xlink:show="new" xlink:title="../index.svg" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="39" x="10" y="20.3809">⌂ Home</text><line style="stroke: #0000FF; stroke-width: 1.0;" x1="10" x2="49" y1="22.3809" y2="22.3809"/></a><rect fill="#EEE8AA" height="32.6406" rx="10" ry="10" style="stroke: #000080; stroke-width: 1.5;" width="170" x="94.5" y="24.5781"/><text fill="#000080" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="154" x="102.5" y="48.2637">Challenge Program</text><ellipse cx="167" cy="70.2188" fill="#000080" filter="url(#f16ppz6nq2p1xi)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><rect fill="#FFFFF0" filter="url(#f16ppz6nq2p1xi)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #6495ED; stroke-width: 1.5;" width="55" x="139.5" y="100.2188"/><text fill="#A9A9A9" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35" x="149.5" y="122.6758">$7000</text><rect fill="#000000" filter="url(#f16ppz6nq2p1xi)" height="6" rx="2.5" ry="2.5" style="stroke: #000000; stroke-width: 1.0;" width="230" x="52" y="199.3125"/><rect fill="#FFFFF0" filter="url(#f16ppz6nq2p1xi)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #6495ED; stroke-width: 1.5;" width="121" x="66" y="225.3125"/><text fill="#A9A9A9" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="101" x="76" y="247.7695">work with coaches</text><polygon fill="#FFFFF0" filter="url(#f16ppz6nq2p1xi)" points="215,225.3125,268,225.3125,278,242.8594,268,260.4063,215,260.4063" style="stroke: #6495ED; stroke-width: 1.5;"/><text fill="#A9A9A9" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33" x="225" y="247.7695">1 year</text><rect fill="#000000" filter="url(#f16ppz6nq2p1xi)" height="6" rx="2.5" ry="2.5" style="stroke: #000000; stroke-width: 1.0;" width="230" x="52" y="280.4063"/><polygon fill="#FFFFF0" filter="url(#f16ppz6nq2p1xi)" points="167,155.3125,179,167.3125,167,179.3125,155,167.3125,167,155.3125" style="stroke: #6495ED; stroke-width: 1.5;"/><polygon fill="#FFFFF0" filter="url(#f16ppz6nq2p1xi)" points="152,306.4063,182,306.4063,194,318.4063,182,330.4063,152,330.4063,140,318.4063,152,306.4063" style="stroke: #6495ED; stroke-width: 1.5;"/><text fill="#A9A9A9" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="30" x="152" y="322.9072">$2000</text><ellipse cx="167" cy="360.4063" fill="#FFFFFF" filter="url(#f16ppz6nq2p1xi)" rx="10" ry="10" style="stroke: #FF0000; stroke-width: 1.5;"/><line style="stroke: #FF0000; stroke-width: 2.5;" x1="160.8128" x2="173.1872" y1="354.2191" y2="366.5934"/><line style="stroke: #FF0000; stroke-width: 2.5;" x1="173.1872" x2="160.8128" y1="354.2191" y2="366.5934"/><line style="stroke: #696969; stroke-width: 1.5;" x1="167" x2="167" y1="80.2188" y2="100.2188"/><polygon fill="#696969" points="163,90.2188,167,100.2188,171,90.2188,167,94.2188" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="126.5" x2="126.5" y1="205.3125" y2="225.3125"/><polygon fill="#696969" points="122.5,215.3125,126.5,225.3125,130.5,215.3125,126.5,219.3125" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="241.5" x2="241.5" y1="205.3125" y2="225.3125"/><polygon fill="#696969" points="237.5,215.3125,241.5,225.3125,245.5,215.3125,241.5,219.3125" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="126.5" x2="126.5" y1="260.4063" y2="280.4063"/><polygon fill="#696969" points="122.5,270.4063,126.5,280.4063,130.5,270.4063,126.5,274.4063" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="241.5" x2="241.5" y1="260.4063" y2="280.4063"/><polygon fill="#696969" points="237.5,270.4063,241.5,280.4063,245.5,270.4063,241.5,274.4063" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="167" x2="167" y1="179.3125" y2="199.3125"/><polygon fill="#696969" points="163,189.3125,167,199.3125,171,189.3125,167,193.3125" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="194" x2="294" y1="318.4063" y2="318.4063"/><polygon fill="#696969" points="290,252.8594,294,242.8594,298,252.8594,294,248.8594" style="stroke: #696969; stroke-width: 1.5;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="294" x2="294" y1="167.3125" y2="318.4063"/><line style="stroke: #696969; stroke-width: 1.5;" x1="294" x2="179" y1="167.3125" y2="167.3125"/><polygon fill="#696969" points="189,163.3125,179,167.3125,189,171.3125,185,167.3125" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="167" x2="167" y1="286.4063" y2="306.4063"/><polygon fill="#696969" points="163,296.4063,167,306.4063,171,296.4063,167,300.4063" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="167" x2="167" y1="135.3125" y2="155.3125"/><polygon fill="#696969" points="163,145.3125,167,155.3125,171,145.3125,167,149.3125" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="167" x2="167" y1="330.4063" y2="350.4063"/><polygon fill="#696969" points="163,340.4063,167,350.4063,171,340.4063,167,344.4063" style="stroke: #696969; stroke-width: 1.0;"/><text fill="#000080" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="31" x="10" y="379.7871">©2019</text><a target="_top" xlink:actuate="onRequest" xlink:href="http://www.lifestylesunlimited.com" xlink:show="new" xlink:title="http://www.lifestylesunlimited.com" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="95" x="44" y="379.7871">LifeStyles Unlimited</text><line style="stroke: #0000FF; stroke-width: 1.0;" x1="44" x2="139" y1="381.7871" y2="381.7871"/></a><text fill="#000080" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="208" x="142" y="379.7871">| Generated Sun Apr 14 12:09:44 CDT 2019</text><!--
+@startuml challenge-program
+
+
+skinparam {
+  BorderColor Red
+  PathHoverColor Blue
+}
+
+skinparam Title {
+  FontColor Navy
+  BackgroundColor PaleGoldenRod
+  BorderColor Navy
+  BorderRoundCorner 20
+}
+
+skinparam activity {
+  BackgroundColor Ivory
+  BorderColor CornflowerBlue
+  FontColor DarkGray
+
+  Arrow {
+    Color dimgray
+    FontColor dimgray
+  }
+
+  Start {
+    Color Navy
+  }
+
+  End {
+    Color Red
+  }
+
+  Diamond {
+    BackgroundColor Ivory
+    BorderColor CornflowerBlue
+    FontColor DarkGray
+  }
+
+  BackgroundColor<< Exception >> Red
+	BorderColor<< Exception >> White
+}
+
+skinparam Swimlane {
+  BorderColor CornflowerBlue 
+}
+
+skinparam Partition {
+  BackgroundColor DarkSeaGreen
+  BorderColor CornflowerBlue
+  BorderThickness 1
+  FontColor White
+  FontSize 16
+}
+skinparam Note {
+  BackgroundColor LightSteelBlue
+  BorderColor CornflowerBlue
+  FontColor White
+}
+
+skinparam Footer {
+  FontColor Navy
+}
+
+
+left header 
+	<font color=Navy>[[../index.svg ⌂ Home]]</font>
+endheader
+
+
+	Title Challenge Program
+
+	start
+
+		:$7000;
+
+		repeat
+			fork
+			:work with coaches;
+			fork again
+			:1 year>
+			end fork
+		repeat while ($2000)
+
+	end
+
+left footer 
+	©2019 [[http://www.lifestylesunlimited.com LifeStyles Unlimited]] | Generated Sun Apr 14 12:09:44 CDT 2019
+endfooter
+
+
+@enduml
+
+PlantUML version 1.2019.03(Sun Mar 10 06:04:44 CDT 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_111-b14
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

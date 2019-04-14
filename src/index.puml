@@ -1,0 +1,18 @@
+@startuml index
+
+	!include theme.iuml
+
+	Title Home
+
+	fork
+		[[unlimited-lifestyle/index.svg]]:Unlimited Lifestyle;
+	fork again
+		[[single-family/index.svg]]:Single Family;
+	fork again
+		[[multi-family/index.svg]]:Multi Family;
+	end fork
+
+
+	!include footer.iuml
+
+@enduml

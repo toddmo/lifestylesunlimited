@@ -1,0 +1,15 @@
+@startuml name-here
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Title Here
+
+	start
+
+	end
+
+	!include footer.iuml
+
+@enduml

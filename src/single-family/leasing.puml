@@ -1,0 +1,32 @@
+@startuml leasing
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Leasing
+
+	start
+
+  :advertise;
+	if(is lawyer) then(yes)
+    stop
+  endif
+	if(income > 3 x rent) then(no)
+    stop
+  endif
+	if(is middle class) then(no)
+    stop
+  endif
+
+  fork
+  :sign lease;
+  fork again
+  :collect deposit;
+  end fork
+
+  end
+
+	!include footer.iuml
+
+@enduml

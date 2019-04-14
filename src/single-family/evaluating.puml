@@ -1,0 +1,36 @@
+@startuml evaluating
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Evaluating (Analysis)
+
+	start
+
+	floating note right: comparative market analysis (cma)
+
+	:calculate income;
+	note right
+		should be $200-$600/mo
+	end note
+
+	:get lending rate;
+
+	:calculate COC;
+	note right
+		net of lending rate
+		====
+		should be 8-30%
+		====
+		inflation is 3-4%
+	end note
+
+	:calculate equity gain;
+	note right: should be 100%
+
+	end
+
+	!include footer.iuml
+
+@enduml

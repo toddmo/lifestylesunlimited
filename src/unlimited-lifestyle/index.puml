@@ -1,0 +1,47 @@
+@startuml index
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Unlimited Lifestyle
+
+	start
+
+		repeat
+
+			fork
+				:learn process;
+			fork again
+				:conventional prequalification;
+				:hard money prequalification;
+			fork again
+				:build team;
+				:build alternate team;
+			fork again
+				repeat
+					:work;
+					:paycheck;
+					fork
+					:save >= 60% of earnings;
+					fork again
+					:live off <= 40% of earnings;
+					floating note left:<i>act your wage
+					end fork
+
+				repeat while (have money for deal)
+				->yes;
+			end fork
+			:do (another) deal;
+			:review process;
+		repeat while (can live off passive income)
+		->yes;
+		:quit job;
+
+
+
+	end
+
+	!include footer.iuml
+
+@enduml

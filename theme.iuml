@@ -2,8 +2,8 @@
 
 skinparam {
   /'backgroundColor Gainsboro'/
-  BorderColor red
-  
+  BorderColor Red
+  PathHoverColor Blue
 }
 
 skinparam Title {
@@ -56,6 +56,10 @@ skinparam Note {
   BackgroundColor LightSteelBlue
   BorderColor CornflowerBlue
   FontColor White
+}
+
+skinparam Footer {
+  FontColor Navy
 }
 
 @enduml

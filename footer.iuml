@@ -1,4 +1,4 @@
-footer 
-Generated %date%
-©2019 LifeStyles Unlimited
+left footer 
+	©2019 [[http://www.lifestylesunlimited.com LifeStyles Unlimited]] | Generated %date%
 endfooter
+

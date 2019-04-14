@@ -1,0 +1,15 @@
+@startuml selling
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Selling
+
+	start
+
+	end
+
+	!include footer.iuml
+
+@enduml

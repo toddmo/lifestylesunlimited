@@ -1,0 +1,74 @@
+@startuml due-diligence
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Due Diligence (Inspection)
+
+
+	start
+
+	fork 
+		fork
+			:turn on electric;
+			fork again
+			:turn on gas;
+			fork again
+			:turn on water;
+		end fork
+		partition FreeStuff {
+			fork
+				:generate detailed scope of work;
+				:general contractor 1 inspection;
+				:general contractor 2 inspection;
+				:general contractor 3 inspection;
+				fork again
+				:roofer inspection;
+				if (bad) then (yes)
+					:roofer 2 inspection;
+					:roofer 3 inspection;
+				endif
+				fork again
+				:foundation inspection;
+				if (bad)
+					:foundation 2 inspection;
+					:foundation 3 inspection;
+				endif
+			end fork
+		}
+		:plumber static test ($150);
+		note right
+			what is failure?
+			what to do upon failure?
+		end note
+		:termite inspection ($75-100);
+		note right
+			what is failure?
+			what to do upon failure?
+		end note
+		:inspector ($200);
+		note right
+			what is failure?
+			what to do upon failure?
+		end note
+		fork again
+			:7-10 Days>
+			#LightPink:Time is out;
+		
+	end fork
+	:get final repair cost;
+	note right
+		San Antonio $15-25k
+		====
+		Houston $k
+		====
+		DFW $30k
+	end note
+	(S)
+	note right: analyse
+	
+
+	!include footer.iuml
+
+@enduml

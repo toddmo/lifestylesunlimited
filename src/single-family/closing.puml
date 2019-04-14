@@ -1,0 +1,15 @@
+@startuml closing
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Closing
+
+	start
+
+	end
+
+	!include footer.iuml
+
+@enduml

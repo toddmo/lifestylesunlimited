@@ -1,0 +1,17 @@
+@startuml negotiating
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Negotiating
+
+	start
+		:make offer;
+		note right: buy low;
+
+	end
+
+	!include footer.iuml
+
+@enduml
