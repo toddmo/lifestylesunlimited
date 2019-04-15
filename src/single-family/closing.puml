@@ -8,6 +8,23 @@
 
 	start
 
+		fork
+			:Fannie Mae Purchase
+			Money Mortgage
+			====
+			75-80%;
+		fork again
+			:Hard Money Loan
+			Private Money Mortgage
+			====
+			70-75% ARV
+			====
+			6-16.5% Interest;
+		fork again
+			
+
+		end fork
+
 	end
 
 	!include footer.iuml

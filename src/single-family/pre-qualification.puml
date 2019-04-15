@@ -1,0 +1,53 @@
+@startuml pre-qualification
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Pre-Qualification
+
+	start
+
+  fork
+
+  partition Conventional {
+
+    if(debt : income <= 50%) then(no)
+      stop
+    endif
+    
+    if(self-employed) then (yes)
+      if(2 years profit tax returns) then(no)
+        stop
+      endif
+    elseif(years employed > 2) then(no)
+      stop
+    endif
+    
+    if(credit score > 650) then(no)
+      stop
+    endif
+    if(bankruptcy < 4 years) then(yes)
+      stop
+    endif
+    if(foreclosure < 7 years) then(yes)
+      stop
+    endif
+    if(short sale / deed-in-lieu < 4 years) then(yes)
+      stop
+    endif
+    if(late mortgage payment < 12 months) then(yes)
+      stop
+    endif
+
+    :Qualification Letter/
+
+  }
+
+  end fork
+
+  end
+
+	!include footer.iuml
+
+@enduml

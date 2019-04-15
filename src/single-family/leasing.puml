@@ -15,6 +15,12 @@
 	if(income > 3 x rent) then(no)
     stop
   endif
+	if(years employed < 2) then(no)
+    stop
+  endif
+	if(credit score < 650) then(no)
+    stop
+  endif
 	if(is middle class) then(no)
     stop
   endif
