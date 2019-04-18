@@ -1,4 +1,7 @@
+@startuml footer
+
 left footer 
 	©2019 [[http://www.lifestylesunlimited.com LifeStyles Unlimited]] | Generated %date%
 endfooter
 
+@enduml

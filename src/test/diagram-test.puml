@@ -2,6 +2,8 @@
 
 !include theme.iuml
 
+!include header.iuml
+
 title Diagram Test
 
 start
@@ -44,5 +46,7 @@ else
 endif
 
 stop
+
+!include footer.iuml
 
 @enduml
