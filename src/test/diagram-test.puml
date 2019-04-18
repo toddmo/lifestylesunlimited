@@ -25,6 +25,7 @@ if (Page.onSecurityCheck) then (true)
 	else (no)
 	  :Page.onGet();
 	endif
+	
 	:Page.onRender();
   endif
 else (false)

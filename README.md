@@ -13,3 +13,5 @@
 
 [Styling Elements](http://plantuml.com/skinparam)
 
+[Using Links](http://plantuml.com/link)
+

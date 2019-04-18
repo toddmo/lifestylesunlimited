@@ -17,6 +17,7 @@ skinparam activity {
   BackgroundColor Ivory
   BorderColor CornflowerBlue
   FontColor DarkGray
+  
 
   Arrow {
     Color dimgray
