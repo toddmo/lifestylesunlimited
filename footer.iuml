@@ -1,5 +1,24 @@
 @startuml footer
 
+partition "Guide to Symbols" {
+	start
+	->start;
+	:activity;
+	if(decision) 
+	else
+		->stop;
+		stop
+	endif
+	->two things happening at once
+	or an alternative;
+	fork
+		#PHYSICAL:<&dollar> money activity]
+	fork again
+		:document]
+	end fork
+	#LightSkyBlue:link to another flow chart;
+}
+
 left footer 
 	©2019 [[http://www.lifestylesunlimited.com LifeStyles Unlimited]] | Generated %date%
 endfooter

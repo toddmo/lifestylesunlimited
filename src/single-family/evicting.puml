@@ -7,7 +7,66 @@
 	Title Evicting
 
 	start
+	->tenent violates lease;
+	:obtain proof of violation;
 
+	partition "Notice of Eviction" {
+		if(rent is late) then (yes)
+			fork
+				#PHYSICAL:<&dollar> late fees]
+			fork again
+				[[https://drive.google.com/open?id=0B18-6Qbo-LJ5Y3d0V1VBeGRHWlE]]#LightSkyBlue:Texas Notice To Vacate - Failure to Pay Rent]
+			end fork
+		else (no)
+			[[https://drive.google.com/open?id=0B18-6Qbo-LJ5U2pkTXRaMTg3SjQ]]#LightSkyBlue:notice to vacate\n----\n<i>eviction notice\n3 days to vacate]
+		endif
+	}
+	
+	-><&timer> 3 days later;
+
+	partition "Filing a Eviction Suit" {
+		fork
+			:summons]
+		fork again
+			:complaint]
+		fork again
+			#PHYSICAL:<&dollar> filing fee <&arrow-thick-right> 150]
+		end fork
+	}
+
+	-><&timer> court date;	
+
+	if(prevail) then (yes\n<&timer> has 7 days to leave)
+		
+		if(vacates on time) then (no)
+			partition "Enforce Eviction" {
+				fork
+					:Writ of Possession]
+				fork again
+					#PHYSICAL:<&dollar> fee <&arrow-thick-right> 150-200]	
+				end fork
+			}
+			-><&timer> has 24 hours to leave;
+			if(vacates on time) then (no)
+				partition "Physical Eviction" {
+					fork
+						:sheriff performs eviction;
+					fork again
+						:movers move trash to the trash;
+						note right:sheriff decides what can be trashed
+					fork again
+						:movers move property to curb;
+					end fork
+				}
+				-><&timer> tenant has 24 hours to retrieve property;
+			else (yes)
+			endif
+		else (yes)
+		endif
+	else (no)
+		#Plum:now what?;
+	endif
+	:change locks;
 	end
 
 	!include footer.iuml

@@ -78,7 +78,7 @@
 
 		repeat
 			fork
-				[[leasing.svg?sanitize=true]]#LightSkyBlue:process applications\n====\n<&people> first come, first served\n----\n<i>see leasing <&arrow-thick-right>;
+				[[leasing.svg?sanitize=true]]#LightSkyBlue:process applications\n====\n<&people> <i>first come, first served\n----\n<i>see leasing <&arrow-thick-right>;
 			fork again
 				-><&timer> wait for a tour demand;
 				:schedule tour date;
