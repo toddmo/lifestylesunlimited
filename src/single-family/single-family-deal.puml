@@ -8,35 +8,39 @@
 
 	start
 
-	:find;
+	[[finding.svg?sanitize=true]]#LightSkyBlue:find;
 	:compare;
-	:analyse;
+	[[evaluating.svg?sanitize=true]]#LightSkyBlue:analyse;
 	:visit;
-	:contract;
-	:inspect;
-	:close;
+	[[negotiating.svg?sanitize=true]]#LightSkyBlue:contract;
+	[[due-diligence.svg?sanitize=true]]#LightSkyBlue:inspect;
+	[[closing.svg?sanitize=true]]#LightSkyBlue:close;
 	fork
 		repeat
 			fork
-				:rehab;
+				[[rehabbing.svg?sanitize=true]]#LightSkyBlue:rehab;
 			fork again
-				:lease;
+			  [[advertise.svg?sanitize=true]]#LightSkyBlue:advertise;
+				[[leasing.svg?sanitize=true]]#LightSkyBlue:lease;
 			end fork
 			-> move in;
 			fork
 				:maintain;
 			fork again
 				repeat
+					-><&timer>\nrent due;
 					:collect rent;
-				repeat while(rent paid?)
-				:evict;
+				repeat while(rent paid?)->yes
+				->no;
+				[[evict.svg?sanitize=true]]#LightSkyBlue:evict;
 			end fork
 			-> move out;
-		repeat while(keep?)
+		repeat while(keep?)->yes
+		->no;
 	fork again
 		:1-3 years>
 	end fork
-	:sell;
+	[[selling.svg?sanitize=true]]#LightSkyBlue:sell;
 	end
 
 	!include footer.iuml

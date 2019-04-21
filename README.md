@@ -15,3 +15,7 @@
 
 [Using Links](http://plantuml.com/link)
 
+[Extra Formatting](http://plantuml.com/creole)
+
+
+

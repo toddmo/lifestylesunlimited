@@ -1,0 +1,15 @@
+@startuml evicting
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Evicting
+
+	start
+
+	end
+
+	!include footer.iuml
+
+@enduml

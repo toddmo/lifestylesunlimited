@@ -11,29 +11,43 @@
 		repeat
 
 			fork
-				:learn process;
+				partition learning {
+					repeat
+						fork
+							:watch video;
+						fork again
+							:attend event;
+						fork again
+							:member services Q&A;
+						end fork
+						:document process;
+					repeat while ()
+				}
 			fork again
-				:conventional prequalification;
-				:hard money prequalification;
-			fork again
-				:build team;
-				:build alternate team;
-			fork again
-				repeat
-					:work;
-					:paycheck;
-					fork
-					:save >= 60% of earnings;
-					fork again
-					:live off <= 40% of earnings;
-					floating note left:<i>act your wage
-					end fork
+				[[../single-family/pre-qualification.svg?sanitize=true]]#LightSkyBlue:pre-qualification;
 
-				repeat while (have money for deal)
-				->yes;
+			fork again
+				[[../single-family/team-building.svg?sanitize=true]]#LightSkyBlue:build team;
+			fork again
+				[[credit-cards.svg?sanitize=true]]#LightSkyBlue:build credit;
+			fork again
+				partition saving {
+					repeat
+						:work;
+						:paycheck;
+						fork
+							:save >= 60% of earnings;
+						fork again
+							:live off <= 40% of earnings;
+							floating note left:<i>act your wage
+						end fork
+
+					repeat while (have money for deal)
+					->yes;
+				}
 			end fork
-			:do (another) deal;
-			:review process;
+			[[../single-family/single-family-deal.svg?sanitize=true]]#LightSkyBlue:do (another) deal;
+			:refine process;
 		repeat while (can live off passive income)
 		->yes;
 		:quit job;

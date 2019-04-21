@@ -5,11 +5,11 @@
 	Title Home
 
 	fork
-		[[unlimited-lifestyle/index.svg?sanitize=true]]:Unlimited Lifestyle;
+		[[unlimited-lifestyle/index.svg?sanitize=true]]#LightSkyBlue:Unlimited Lifestyle;
 	fork again
-		[[single-family/index.svg?sanitize=true]]:Single Family;
+		[[single-family/index.svg?sanitize=true]]#LightSkyBlue:Single Family;
 	fork again
-		[[multi-family/index.svg?sanitize=true]]:Multi Family;
+		[[multi-family/index.svg?sanitize=true]]#LightSkyBlue:Multi Family;
 	end fork
 
 

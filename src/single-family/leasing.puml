@@ -8,30 +8,189 @@
 
 	start
 
-  :advertise;
-	if(is lawyer) then(yes)
-    stop
-  endif
-	if(income > 3 x rent) then(no)
-    stop
-  endif
-	if(years employed < 2) then(no)
-    stop
-  endif
-	if(credit score < 650) then(no)
-    stop
-  endif
-	if(is middle class) then(no)
-    stop
-  endif
+  partition "Take Application" {
+    #PHYSICAL:<&dollar> application fee
+               <i>$45]
+    repeat
+      fork 
+        :application]
+      fork again
+        :checking statement]
+      fork again
+        if(self-employed) then (no)
+          fork
+            :W2]
+          fork again
+            :paycheck stubs
+            ====
+            how far back]
+          end fork
+        else (yes)
+          fork 
+            :bank statements
+            ----
+            2 years]
+          fork again
+            :tax returns
+            ----
+            2 years]
+          end fork
+        endif
+      fork again
+        #LightPink:not acceptable
+        ====
+        <&ban> employer letters
+        <&ban> child support
+        <&ban> social security]
+      end fork
+      note right: all occupants > 18
+    repeat while (application(s) 100% complete)->return to\napplicant
+    ->yes;
+  }
 
-  fork
-  :sign lease;
-  fork again
-  :collect deposit;
-  end fork
+  partition Pre-Screening {
+    if(is lawyer) then(yes)
+      stop
+    elseif(tax returns profitable) then(no)
+      stop
+    elseif(income > 3 x rent) then(no)
+      stop
+    elseif(years employed < 2) then(no)
+      stop
+    elseif(is middle class) then(no)
+      stop
+    elseif(exotic pet) then(yes)
+      stop
+    elseif(pet > 35 lbs) then(yes)
+      stop
+    elseif(vicious breed pet) then(yes)
+      stop
+    endif
+  }  
+
+  partition "Categorize Applicants" {
+    if(live with parents) then(yes)
+      #Plum:purple;
+    elseif(age 18-19) then(yes)
+      #Plum:purple;
+    elseif(evicted) then(yes)
+      #Plum:purple;
+    elseif(no history) then(yes)
+      #Plum:purple;
+    elseif(wad of cash) then(yes)
+      #Plum:purple
+      ====
+      <i>illicit business;
+    elseif(has checking account) then(no)
+      #Pink:pink;
+    else
+      #80FF80:green;
+    endif
+  }
+
+  partition "Rental History Check" {
+    :call previous landlord;
+    if(recommends) then(no)
+      stop
+    endif
+    ->yes;
+  }
+
+  partition "Employment Check" {
+    if(employee) then (yes)
+      :verification call;
+    endif
+  }
+
+  partition "Criminal Background Check" {
+    :pull criminal;
+    if(violent / drugs) then(yes)
+      stop
+    endif
+    if(warrents) then(yes)
+      #Plum:purple;
+    endif
+  }
+
+  partition "Credit Check" {
+    :pull credit;
+    if(credit score < 500) 
+      stop
+    elseif(credit score < 550) 
+      #Plum:purple;
+    elseif(credit score < 650) 
+      #Pink:pink;
+    else
+      #80FF80:green;
+    endif
+  }
+
+  partition "Pet Addendum" {
+    if(application says has pet)
+      :pet interview;
+      if(dog or cat) then(no)
+        stop
+      elseif(> 35 pounds)
+        stop
+      elseif(vicious breed)
+        stop
+      else
+        :$200 / pet fee;
+        note right: non-refundable
+        :$200 / pet deposit;
+        note right: refundable
+        :$25 / mo / pet pet rent;
+      endif
+    else (fish, or no pets)
+    endif
+  }
+
+  partition "Signing" {
+    fork
+      :<&pencil> sign lease]
+    fork again
+      #PHYSICAL:<&dollar> pet fees]
+    fork again
+      #PHYSICAL:<&dollar> deposit
+      ----
+      <&check> money order
+      <&check> cashier's check
+      <&ban> cash
+      <&ban> check]
+      fork
+        #80FF80:collect 1x rent;
+      fork again
+        #Pink:collect 2x rent
+        ----
+        <i>Credit Restoration Program;
+      fork again
+        #Plum:collect 3x rent;
+      end fork
+    end fork
+  }
+  -><&timer> wait until move in date;
+
+  partition "Move In Date" {
+    if(moving in) then (yes)
+      #PHYSICAL:<&dollar> rent]
+      note right: pro-rated?
+      :<&key> give key;
+    else (changed mind)
+      #PHYSICAL:<&dollar> refund <&arrow-thick-right> ]
+      note right: how much?
+      stop
+    endif
+  }
 
   end
+
+  legend right
+    | color | tenant type |Notes|
+    |<#80FF80> green |<#80FF80> perfect ||
+    |<#Pink> pink |<#Pink> blemished |more risky|
+    |<#Plum> purple |<#Plum> risky tenant |will trash property|
+  endlegend  
+
 
 	!include footer.iuml
 

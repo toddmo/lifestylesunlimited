@@ -1,0 +1,93 @@
+@startuml advertising
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Advertising
+
+	start
+
+	-><&timer> wait until property funds;
+
+	fork
+		:<&phone> get google voice number
+		----
+		don't want people having your personal number;
+	fork again
+		:<&envelope-closed> get inquiry email
+		----
+		<i>address@gmail.com;
+	fork again
+		:<&envelope-closed> get application email
+		----
+		<i>address_apps@gmail.com;
+	fork again
+		:<&cloud> get paypal account;
+		:<&envelope-closed> paypal email address
+		----
+		<i>property@paypal.com;
+	fork again
+		:<&cloud> get youtube account;
+		:<&rss> get youtube channel
+		----
+		<&user> <i>user name: property;
+		:<&video> upload property tour video;
+	end fork
+
+	:set up the inquiry email
+	<i>auto-respond message
+	----
+	<&envelope-open> reply-to: address_apps@gmail.com
+	<&pencil> <color:orange> thank you message
+	<&link-intact> <color:cornflowerblue> youtube tour video
+	<&paperclip> application
+	<&paperclip> credit / criminal permission from
+	
+	;
+
+	fork
+		:put info in window
+		====
+		* pictures of rooms
+		** front
+		** bath
+		** kitchen
+		** living
+		* amenities
+		* crime for area
+		* application criteria
+		;
+	fork again
+		#Magenta:sign in front yard
+		<i>neon pink from walmart
+		<i>written with a sharpie
+		====
+		| 3-2-2 | $875 |
+		| 1680 sq ft | ready 4/1/2019 |
+		| All New Blah | All New Blah |
+		| (214) 555-1212 | call Fred |
+		]
+	fork again
+		[[https://dallas.craigslist.org]]#LightSkyBlue:<&globe> craig's list;
+	fork again
+		[[https://postless.com]]#LightSkyBlue:<&globe> postless;
+	fork again
+		[[https://cozy.co]]#LightSkyBlue:<&globe> cozy;
+	end fork
+
+		repeat
+			fork
+				[[leasing.svg?sanitize=true]]#LightSkyBlue:process applications\n====\n<&people> first come, first served\n----\n<i>see leasing <&arrow-thick-right>;
+			fork again
+				-><&timer> wait for a tour demand;
+				:schedule tour date;
+				:give tour to next group of applicants;
+			end fork
+		repeat while (leased)->no
+
+
+
+	!include footer.iuml
+
+@enduml

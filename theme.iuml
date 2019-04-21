@@ -16,7 +16,7 @@ skinparam Title {
 skinparam activity {
   BackgroundColor Ivory
   BorderColor CornflowerBlue
-  FontColor DarkGray
+  FontColor DimGray
   
 
   Arrow {
@@ -25,11 +25,11 @@ skinparam activity {
   }
 
   Start {
-    Color Navy
+    Color PHYSICAL
   }
 
   End {
-    Color Red
+    Color Coral
   }
 
   Diamond {
@@ -47,13 +47,21 @@ skinparam Swimlane {
 }
 
 skinparam Partition {
-  BackgroundColor DarkSeaGreen
+  BackgroundColor Ivory
   BorderColor CornflowerBlue
   BorderThickness 1
-  FontColor White
+  FontColor CornflowerBlue
   FontSize 16
+  BorderRoundCorner 20
 }
+
 skinparam Note {
+  BackgroundColor LightSteelBlue
+  BorderColor CornflowerBlue
+  FontColor White
+}
+
+skinparam Legend {
   BackgroundColor LightSteelBlue
   BorderColor CornflowerBlue
   FontColor White

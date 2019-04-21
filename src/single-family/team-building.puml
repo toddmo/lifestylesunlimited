@@ -1,0 +1,52 @@
+@startuml team-building
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Build Team
+
+	start
+
+	repeat
+
+		:choose;
+
+		fork
+			:mentor;
+		fork again
+			:lenders;
+		fork again
+			:real estate agents / brokers;
+		fork again
+			:home inspectors;
+			note right: licensed only
+		fork again
+			:insurance agents;
+		fork again
+			:general contractor;
+		fork again
+			:roofer;
+		fork again
+			:foundation specialist;
+		fork again
+			:termite inspector;
+		fork again
+			:property management;
+		fork again
+			:tenant screening company;
+		fork again
+			:attorney;
+			note right: understands real estate
+		fork again
+			:cpa;
+		fork again
+			:business checking;
+		end fork
+	repeat while (primary and two alternates)
+	#PHYSICAL:team ready;
+	
+
+	!include footer.iuml
+
+@enduml

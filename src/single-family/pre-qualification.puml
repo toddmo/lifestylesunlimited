@@ -10,41 +10,78 @@
 
   fork
 
-  partition Conventional {
+    partition Conventional {
 
-    if(debt : income <= 50%) then(no)
-      stop
-    endif
-    
-    if(self-employed) then (yes)
-      if(2 years profit tax returns) then(no)
+      if(  debt / income <= 50%) then(no)
         stop
       endif
-    elseif(years employed > 2) then(no)
-      stop
-    endif
+      
+      if(self-employed) then (yes)
+        if(2 years profit tax returns) then(no)
+          stop
+        endif
+      elseif(years employed > 2) then(no)
+        stop
+      endif
+      
+      if(credit score > 650) then(no)
+        stop
+      endif
+      if(bankruptcy < 4 years) then(yes)
+        stop
+      endif
+      if(foreclosure < 7 years) then(yes)
+        stop
+      endif
+      if(short sale / deed-in-lieu < 4 years) then(yes)
+        stop
+      endif
+      if(late mortgage payment < 12 months) then(yes)
+        stop
+      endif
+
+    }
+
+  fork again
+    partition "Fannie Mae Purchase Money Mortgage" {
+      if(house in perfect condition) then (no)
+        stop
+      endif
+      :75-80% lending out}
+    }
     
-    if(credit score > 650) then(no)
-      stop
-    endif
-    if(bankruptcy < 4 years) then(yes)
-      stop
-    endif
-    if(foreclosure < 7 years) then(yes)
-      stop
-    endif
-    if(short sale / deed-in-lieu < 4 years) then(yes)
-      stop
-    endif
-    if(late mortgage payment < 12 months) then(yes)
-      stop
-    endif
+  fork again
+    partition "Hard Money Loan" {
+      :70-75% ARV}
+      :6-16.5% interest}
+      :2-4 month term}
+    }
 
-    :Qualification Letter/
+  fork again
+    partition "Rate and Term Refinance Loan" {
+      :75%}
+      #Plum:no more out of pocket?;
+    }
 
-  }
+  fork again
+    partition "Delayed Financing" {
+      :75-80% of all in cost}
+      :get all money back minus repairs}
+      #Plum:offer cash?;
+    }
 
+  fork again
+    partition "Cash Out Refinance Loan" {
+      if(6-12 months of "seasoning"\n====\n(being rented out)) then (no)
+        stop
+      endif
+      :75% of appraised value}
+    }
   end fork
+
+  :apply;
+
+  :Qualification Letter/
 
   end
 
