@@ -11,6 +11,7 @@
 	:obtain proof of violation;
 
 	partition "Notice of Eviction" {
+		note left: see document hub for more details
 		if(rent is late) then (yes)
 			fork
 				#PHYSICAL:<&dollar> late fees]
@@ -26,9 +27,9 @@
 
 	partition "Filing a Eviction Suit" {
 		fork
-			:summons]
+			:Summons]
 		fork again
-			:complaint]
+			:Complaint]
 		fork again
 			#PHYSICAL:<&dollar> filing fee <&arrow-thick-right> 150]
 		end fork

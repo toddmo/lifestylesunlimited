@@ -1,0 +1,30 @@
+@startuml symbol-guide
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Guide to Symbols
+
+	start
+	->start;
+	:activity;
+	if(decision) 
+	else
+		->stop;
+		stop
+	endif
+	fork
+		#PHYSICAL:<&dollar> money activity]
+		floating note right:two things happening at once\nor an alternative
+	fork again
+		:document]
+		#LightSkyBlue:link to a document]
+	end fork
+	#LightSkyBlue:link to another flow chart;
+	->end;
+	end
+
+	!include footer.iuml
+
+@enduml

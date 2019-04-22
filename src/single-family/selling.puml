@@ -8,6 +8,14 @@
 
 	start
 
+	if(selling to tenant)
+		#PHYSICAL:<&dollar> realtor fee 0]
+		note right: how?
+	else
+	endif
+
+	
+
 	end
 
 	!include footer.iuml

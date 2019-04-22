@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="533px" preserveAspectRatio="none" style="width:515px;height:533px;" version="1.1" viewBox="0 0 515 533" width="515px" zoomAndPan="magnify"><defs><style type="text/css"><![CDATA[path:hover { stroke: #0000FF !important;}]]></style><filter height="300%" id="f1uf0u6hizot81" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><a target="_top" xlink:actuate="onRequest" xlink:href="../index.svg" xlink:show="new" xlink:title="../index.svg" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="67" x="10" y="28.6855">⌂ Home</text><line style="stroke: #0000FF; stroke-width: 1.0;" x1="10" x2="77" y1="30.6855" y2="30.6855"/></a><rect fill="#EEE8AA" height="32.6406" rx="10" ry="10" style="stroke: #000080; stroke-width: 1.5;" width="157" x="177.5" y="34.6406"/><text fill="#000080" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="141" x="185.5" y="58.3262">Guide to Symbols</text><ellipse cx="257" cy="80.2813" fill="#CCFFCC" filter="url(#f1uf0u6hizot81)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><rect fill="#FFFFF0" filter="url(#f1uf0u6hizot81)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #6495ED; stroke-width: 1.5;" width="55" x="229.5" y="132.5342"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35" x="239.5" y="154.9912">activity</text><polygon fill="#FFFFF0" filter="url(#f1uf0u6hizot81)" points="237,187.6279,277,187.6279,289,199.6279,277,211.6279,237,211.6279,225,199.6279,237,187.6279" style="stroke: #6495ED; stroke-width: 1.5;"/><text fill="#A9A9A9" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="40" x="237" y="204.1289">decision</text><text fill="#696969" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="21" x="289" y="197.2109">stop</text><ellipse cx="332" cy="199.6279" fill="#FFFFFF" filter="url(#f1uf0u6hizot81)" rx="11" ry="11" style="stroke: #FF7F50; stroke-width: 1.0;"/><ellipse cx="332" cy="199.6279" fill="#FF7F50" rx="6" ry="6" style="stroke: #FFBFA7; stroke-width: 1.0;"/><rect fill="#000000" filter="url(#f1uf0u6hizot81)" height="6" rx="2.5" ry="2.5" style="stroke: #000000; stroke-width: 1.0;" width="494" x="10" y="231.6279"/><path d="M152,288.8701 L152,331.5732 L342,331.5732 L342,298.8701 L332,288.8701 L152,288.8701 " fill="#B0C4DE" filter="url(#f1uf0u6hizot81)" style="stroke: #6495ED; stroke-width: 1.0;"/><path d="M332,288.8701 L332,298.8701 L342,298.8701 L332,288.8701 " fill="#B0C4DE" style="stroke: #6495ED; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="169" x="158" y="307.3652">two things happening at once</text><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="91" x="158" y="323.7168">or an alternative</text><rect fill="#CCFFCC" filter="url(#f1uf0u6hizot81)" height="35.0938" style="stroke: #6495ED; stroke-width: 1.5;" width="108" x="24" y="292.6748"/><path d="M38,306.7686 L38,307.7686 L37.25,307.7686 C36.564,307.7686 36,308.3326 36,309.0186 L36,309.5186 C36,310.1966 36.437,310.7606 37.094,310.9246 L39.657,311.5806 C39.8,311.6166 40.001,311.8766 40.001,312.0186 L40.001,312.5186 C40.001,312.6526 39.885,312.7686 39.751,312.7686 L37.251,312.7686 C37.135,312.7686 37.039,312.7316 37.001,312.7056 L37.001,311.7676 L36.001,311.7676 L36.001,312.7676 C36.001,313.1096 36.204,313.3946 36.439,313.5486 C36.673,313.7036 36.957,313.7676 37.252,313.7676 L38.002,313.7676 L38.002,314.7676 L39.002,314.7676 L39.002,313.7676 L39.752,313.7676 C40.438,313.7676 41.002,313.2036 41.002,312.5176 L41.002,312.0176 C41.002,311.3396 40.565,310.7756 39.908,310.6116 L37.345,309.9556 C37.202,309.9196 37.001,309.6596 37.001,309.5176 L37.001,309.0176 C37.001,308.8836 37.117,308.7676 37.251,308.7676 L39.751,308.7676 C39.867,308.7676 39.963,308.8046 40.001,308.8306 L40.001,309.7686 L41.001,309.7686 L41.001,308.7686 C41.001,308.4266 40.798,308.1416 40.563,307.9876 C40.329,307.8326 40.045,307.7686 39.75,307.7686 L39,307.7686 L39,306.7686 L38,306.7686 " fill="#696969" style="stroke: ; stroke-width: 0.0; stroke-dasharray: ;"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="75" x="47" y="315.1318">money activity</text><rect fill="#FFFFF0" filter="url(#f1uf0u6hizot81)" height="35.0938" style="stroke: #6495ED; stroke-width: 1.5;" width="75" x="392.5" y="257.6279"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="402.5" y="280.085">document</text><rect fill="#87CEFA" filter="url(#f1uf0u6hizot81)" height="35.0938" style="stroke: #6495ED; stroke-width: 1.5;" width="120" x="370" y="327.7217"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="100" x="380" y="350.1787">link to a document</text><rect fill="#000000" filter="url(#f1uf0u6hizot81)" height="6" rx="2.5" ry="2.5" style="stroke: #000000; stroke-width: 1.0;" width="494" x="10" y="382.8154"/><rect fill="#87CEFA" filter="url(#f1uf0u6hizot81)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #6495ED; stroke-width: 1.5;" width="152" x="181" y="408.8154"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="132" x="191" y="431.2725">link to another flow chart</text><ellipse cx="257" cy="496.1621" fill="#FFFFFF" filter="url(#f1uf0u6hizot81)" rx="10" ry="10" style="stroke: #FF7F50; stroke-width: 1.5;"/><line style="stroke: #FF7F50; stroke-width: 2.5;" x1="250.8128" x2="263.1872" y1="489.9749" y2="502.3493"/><line style="stroke: #FF7F50; stroke-width: 2.5;" x1="263.1872" x2="250.8128" y1="489.9749" y2="502.3493"/><line style="stroke: #696969; stroke-width: 1.5;" x1="257" x2="257" y1="90.2813" y2="132.5342"/><polygon fill="#696969" points="253,122.5342,257,132.5342,261,122.5342,257,126.5342" style="stroke: #696969; stroke-width: 1.0;"/><text fill="#696969" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="22" x="261" y="112.6172">start</text><line style="stroke: #696969; stroke-width: 1.5;" x1="257" x2="257" y1="211.6279" y2="231.6279"/><polygon fill="#696969" points="253,221.6279,257,231.6279,261,221.6279,257,225.6279" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="289" x2="321" y1="199.6279" y2="199.6279"/><polygon fill="#696969" points="311,195.6279,321,199.6279,311,203.6279,315,199.6279" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="257" x2="257" y1="167.6279" y2="187.6279"/><polygon fill="#696969" points="253,177.6279,257,187.6279,261,177.6279,257,181.6279" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="430" x2="430" y1="292.7217" y2="327.7217"/><polygon fill="#696969" points="426,317.7217,430,327.7217,434,317.7217,430,321.7217" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="78" x2="78" y1="237.6279" y2="292.6748"/><polygon fill="#696969" points="74,282.6748,78,292.6748,82,282.6748,78,286.6748" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="430" x2="430" y1="237.6279" y2="257.6279"/><polygon fill="#696969" points="426,247.6279,430,257.6279,434,247.6279,430,251.6279" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="78" x2="78" y1="327.7686" y2="382.8154"/><polygon fill="#696969" points="74,372.8154,78,382.8154,82,372.8154,78,376.8154" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="430" x2="430" y1="362.8154" y2="382.8154"/><polygon fill="#696969" points="426,372.8154,430,382.8154,434,372.8154,430,376.8154" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="257" x2="257" y1="388.8154" y2="408.8154"/><polygon fill="#696969" points="253,398.8154,257,408.8154,261,398.8154,257,402.8154" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="257" x2="257" y1="443.9092" y2="486.1621"/><polygon fill="#696969" points="253,476.1621,257,486.1621,261,476.1621,257,480.1621" style="stroke: #696969; stroke-width: 1.0;"/><text fill="#696969" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="18" x="261" y="466.2451">end</text><text fill="#000080" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="10" y="519.6953">©2019</text><a target="_top" xlink:actuate="onRequest" xlink:href="http://www.lifestylesunlimited.com" xlink:show="new" xlink:title="http://www.lifestylesunlimited.com" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="122" x="56" y="519.6953">LifeStyles Unlimited</text><line style="stroke: #0000FF; stroke-width: 1.0;" x1="56" x2="178" y1="521.6953" y2="521.6953"/></a><text fill="#000080" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="281" x="182" y="519.6953">| Generated Mon Apr 22 08:25:44 CDT 2019</text><!--
+@startuml symbol-guide
+
+
+skinparam {
+  BorderColor Red
+  PathHoverColor Blue
+}
+
+skinparam Title {
+  FontColor Navy
+  BackgroundColor PaleGoldenRod
+  BorderColor Navy
+  BorderRoundCorner 20
+}
+
+skinparam activity {
+  BackgroundColor Ivory
+  BorderColor CornflowerBlue
+  FontColor DimGray
+  
+
+  Arrow {
+    Color dimgray
+    FontColor dimgray
+  }
+
+  Start {
+    Color PHYSICAL
+  }
+
+  End {
+    Color Coral
+  }
+
+  Diamond {
+    BackgroundColor Ivory
+    BorderColor CornflowerBlue
+    FontColor DarkGray
+  }
+
+  BackgroundColor<< Exception >> Red
+	BorderColor<< Exception >> White
+}
+
+skinparam Swimlane {
+  BorderColor CornflowerBlue 
+}
+
+skinparam Partition {
+  BackgroundColor Ivory
+  BorderColor CornflowerBlue
+  BorderThickness 1
+  FontColor CornflowerBlue
+  FontSize 16
+  BorderRoundCorner 20
+}
+
+skinparam Note {
+  BackgroundColor LightSteelBlue
+  BorderColor CornflowerBlue
+  FontColor White
+}
+
+skinparam Legend {
+  BackgroundColor LightSteelBlue
+  BorderColor CornflowerBlue
+  FontColor White
+}
+
+skinparam Footer {
+  FontColor Navy
+}
+
+
+left header 
+	<font color=Navy size=18>[[../index.svg ⌂ Home]]</font>
+endheader
+
+
+	Title Guide to Symbols
+
+	start
+	->start;
+	:activity;
+	if(decision) 
+	else
+		->stop;
+		stop
+	endif
+	fork
+		#PHYSICAL:<&dollar> money activity]
+		floating note right:two things happening at once\nor an alternative
+	fork again
+		:document]
+		#LightSkyBlue:link to a document]
+	end fork
+	#LightSkyBlue:link to another flow chart;
+	->end;
+	end
+
+
+left footer 
+	<font size=14>©2019 [[http://www.lifestylesunlimited.com LifeStyles Unlimited]] | Generated Mon Apr 22 08:25:44 CDT 2019</font>
+endfooter
+
+
+@enduml
+
+PlantUML version 1.2019.03(Sun Mar 10 06:04:44 CDT 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_111-b14
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
