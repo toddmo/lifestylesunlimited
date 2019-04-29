@@ -7,9 +7,9 @@
 	Title Single Family
 
 	fork
-		[[single-family-deal.svg?sanitize=true]]:Single Family Deal;
+		[[single-family-deal.svg?sanitize=true]]#LightSkyBlue:Single Family Deal;
 	fork again
-		[[challenge-program.svg?sanitize=true]]:Challenge Program;
+		[[challenge-program.svg?sanitize=true]]#LightSkyBlue:Challenge Program;
 	end fork
 
 
