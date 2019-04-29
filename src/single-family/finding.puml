@@ -28,7 +28,7 @@
 			fork
 				[[challenge-program.svg?sanitize=true]]#LightSkyBlue:challenge program;
 			fork again
-				[[preferred-investor-group-program.svg?sanitize=true]]#LightSkyBlue:preferred investor program;
+				[[../multi-family/preferred-investor-group-program.svg?sanitize=true]]#LightSkyBlue:preferred investor program;
 			end fork
 			fork
 				:email blast;
