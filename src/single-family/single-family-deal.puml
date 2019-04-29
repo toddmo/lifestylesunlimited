@@ -33,7 +33,7 @@
 						:collect rent;
 					repeat while(rent paid?)->yes
 					->no;
-					[[evict.svg?sanitize=true]]#LightSkyBlue:evict;
+					[[evicting.svg?sanitize=true]]#LightSkyBlue:evict;
 				end fork
 			fork again
 				:May 15>
