@@ -12,6 +12,10 @@
 		----
 		* advertising
 		* proof of condition;
+
+		if(foundation repair) then (yes)
+			:lifetime warranty]
+		endif
 	end
 
 	!include footer.iuml

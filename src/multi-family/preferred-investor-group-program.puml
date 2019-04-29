@@ -1,0 +1,40 @@
+@startuml preferred-investor-group-program
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Preferred Investor Group Program\n(Single & Multi-Family)
+
+	start
+
+	#PHYSICAL:<&dollar> 18000]
+
+	repeat
+		->paid;
+		:active;
+		fork
+			[[../single-family/challenge-program.svg?sanitize=true]]#LightSkyBlue:challenge program;
+		fork again
+			:personalized planning session;
+		fork again
+			:multi-family 1-on-1 consulting;
+		fork again
+			:multi-family realtors;
+		fork again
+			:multi-family road trips;
+		fork again
+			:multi-family specialized education;
+		fork again
+			:preferred investor networking events;
+		fork again
+		:1 year>
+		end fork
+		:inactive;
+
+		#PHYSICAL:<&dollar> 3000]
+	repeat while ()
+
+	!include footer.iuml
+
+@enduml

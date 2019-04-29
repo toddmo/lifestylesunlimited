@@ -8,17 +8,134 @@
 
 	start
 
-		:close by;
-		note right:same sub-division
+	partition Finding {
+		fork
+			partition "find it myself" {
+				[[http://realestate.sabor.com]]#LightSkyBlue:<&globe> sabor.com;
+			}
 
-		:listed recently;
-		note right: within 3-9 months
+		fork again
+			[[https://app.lifestylesquest.com]]#LightSkyBlue:quest;
 
-		:similar size;
-		note right: ± 300 square feet
+		fork again
+			:real estate agent;
+			:access to the mls;
+		fork again
+			:wholesaler;
+			note right: buyer beware
 
-		:sale prices;
-		note right: price ≠ value
+		fork again
+			fork
+				[[challenge-program.svg?sanitize=true]]#LightSkyBlue:challenge program;
+			fork again
+				[[preferred-investor-group-program.svg?sanitize=true]]#LightSkyBlue:preferred investor program;
+			end fork
+			fork
+				:email blast;
+			fork again
+				[[https://www.har.com/lifestyles-realty-dallas-inc/broker_NTREIS-LIRE01]]#LightSkyBlue:lifestyles realty;
+			end fork
+		end fork
+	}
+
+	partition Filtering {
+		if(correct housing type\n----\nsingle family house) then(no)
+			note right
+				if you can't buy all of it
+				don't buy any of it
+			end note
+			stop
+		else (yes)
+		endif
+
+		if(recent listing\n----\n <= 60 days) then(no)
+			note right
+				something is wrong with it
+			end note
+			stop
+		else (yes)
+		endif
+
+		if(correct rooms\n----\n3-2-2\n4-2-2) then(no)
+			note right: costs too much to fix
+			stop
+		else (yes)
+		endif
+
+		if(correct size\n----\n1000-2000 sq ft) then(no)
+			stop
+		else (yes / lower rehab)
+		endif
+		
+
+		if(correct age\n----\n1970s - current) then(no)
+			note right
+				lead paint
+				old pipes
+				old electric
+			end note
+			stop
+		else (yes)
+		endif
+
+		if(correct neighborhood\n----\nnot scary\nuse google street view) then(no)
+			note right
+				high crime area
+			end note
+			stop
+		else (yes)
+		endif
+
+		if(correct price\n----\n$80-180k) then(no)
+			note right
+				amount of mortgage vs
+				amount of rent
+			end note
+			stop
+		else (yes)
+		endif
+
+		if(correct class\n----\nmiddle) then(no)
+			note right
+				don't buy low end
+			end note
+			stop
+		else (yes)
+		endif
+
+	}
+
+		partition "Comparative Market Analysis (CMA)\nSales Comparison\n<i>Find >= 3 Similar Homes" {
+
+			if(close by\n----\nsame sub-division) then(no)
+				stop
+			else (yes)
+			endif
+
+			if(listed recently\n----\nwithin 3-9 months) then(no)
+				stop
+			else (yes)
+			endif
+
+			if(similar size\n----\n± 300 square feet) then(no)
+				stop
+			else (yes)
+			endif
+
+			if(sale prices\n----\n>> higher than this property) then(no)
+				note right
+					price ≠ value
+					<i>"no meat on the bone"
+				end note
+				stop
+			else (yes)
+			endif
+		}
+
+		partition "Comparative Market Analysis (CMA)\nRent Comparison\n<i>Find >= 1 Similar Homes" {
+
+		}
+
 
 	end
 

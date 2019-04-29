@@ -1,0 +1,37 @@
+@startuml financial-freedom-program
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Financial Freedom Program
+
+	start
+
+	#PHYSICAL:<&dollar> 500]
+
+	repeat
+		->paid;
+		:active;
+		fork
+			:2-day seminars;
+		fork again
+			:special events;
+		fork again
+			:case studies;
+		fork again
+			:member services;
+
+		fork again
+			:1 year>
+		end fork
+
+		:inactive;
+
+		#PHYSICAL:<&dollar> 200]
+	repeat while ()
+	
+
+	!include footer.iuml
+
+@enduml

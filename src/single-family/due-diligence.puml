@@ -17,7 +17,7 @@
 			fork again
 			:turn on water;
 		end fork
-		partition FreeStuff {
+		partition "Cost-Free Steps" {
 			fork
 				:generate detailed scope of work;
 				:general contractor 1 inspection;
@@ -37,6 +37,9 @@
 				endif
 			end fork
 		}
+		if(too expensive)
+			stop
+		endif
 		:plumber static test ($150);
 		note right
 			what is failure?
@@ -65,7 +68,7 @@
 		====
 		DFW $30k
 	end note
-	(S)
+	[[evaluating.svg?sanitize=true]]#LightSkyBlue:evaluate;
 	note right: analyse
 	
 

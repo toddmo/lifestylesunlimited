@@ -11,11 +11,13 @@ skinparam Title {
   BackgroundColor PaleGoldenRod
   BorderColor Navy
   BorderRoundCorner 20
+  FontSize 24
 }
 
 skinparam activity {
   BackgroundColor Ivory
   BorderColor CornflowerBlue
+  BorderThickness 1
   FontColor DimGray
   
 

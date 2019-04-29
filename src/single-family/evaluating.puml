@@ -8,28 +8,115 @@
 
 	start
 
-	floating note right: comparative market analysis (cma)
+	partition "Gather Information" {
+		#PHYSICAL:<&dollar> purchase price]
+		note right: offer full price
+		#PHYSICAL:<&dollar> survey 350]
+		note right: dfw $350
+		#PHYSICAL:<&dollar> appraisal first closing 500]
+		note right: hard money
+		#PHYSICAL:<&dollar> appraisal second closing 500]
+		note right: back-end lender
+		:<&calculator> lending rate]
+		note right: interest rate
+		#PHYSICAL:<&dollar> hoa dues]
+		note right: monthly
+		#PHYSICAL:<&dollar> property taxes]
+		note right: annual
+		#PHYSICAL:<&dollar> insurance 500-700]
+		note right: annual
+		#PHYSICAL:<&dollar> rent]
+		note right: can use zillow
+		#PHYSICAL:<&calculator> escrow]
+		note right
+			quarterly cost
+			(taxes + insurance) / 4
+		end note
+		#PHYSICAL:<&dollar> hard money loan amount]
+		note right
+			70% ARV
+		end note
+		#PHYSICAL:<&dollar> conventional loan amount]
+		note right
+			75% ARV
+		end note
+		#PHYSICAL:<&dollar> hard money closing costs]		
+		note right
+			~ 7% of loan amount
+		end note
+		#PHYSICAL:<&dollar> conventional closing costs]		
+		note right
+			~ 5% of loan amount
+		end note
+	}
 
-	:calculate income;
-	note right
-		should be $200-$600/mo
-	end note
+	partition "Calculate Rehab Cost" {
+		note right: rehab all properties the same
+		if(countertops) then (yes)
+			#PHYSICAL:<&dollar> 150]
+			note right:butcherblock
+		else (no)
+		endif
+		
+		if(carpet) then (yes)
+			#PHYSICAL:<&dollar> 1.25 / sq ft]
+			note right:avoid
+		else (no)
+		endif
 
-	:get lending rate;
+		if(flooring) then (yes)
+			#PHYSICAL:<&dollar> 1.69 / sq ft]
+			note right:glued vinyl planks
+		else (no)
+		endif
 
-	:calculate COC;
-	note right
-		net of lending rate
-		====
-		should be 8-30%
-		====
-		inflation is 3-4%
-	end note
+		if(old hard wood flooring) then (yes)
+			#PHYSICAL:<&dollar> resurface]
+		else (no)
+		endif
 
-	:calculate equity gain;
-	note right: should be 100%
+		if(paint) then (yes)
+			#PHYSICAL:<&dollar> 1.89 / sq ft]
+			note right
+				PPG
+				stone mason grey
+			end note
+		else (no)
+		endif
 
-	end
+		if(appliances) then (yes)
+			#PHYSICAL:<&dollar> 1000]
+			note right
+				HD Supply
+				stainless steel
+				stove, microwave, dishwasher
+			end note
+			#PHYSICAL:<&dollar> installation]
+		else (no)
+		endif
+	}
+
+	if(income ok\n----\n$200-600 / mo) then (no)
+		stop
+	else (yes)
+	endif
+
+	if(cost/sql ft ok\n----\n< $88 / sq ft) then (no)
+		stop
+	else (yes)
+	endif
+
+	if(correct cash-on-cash return\n----\nshould be 8-30 %\nnet of lending rate\n<i>inflation is 3-4 %) then(no)
+		stop
+	else (yes)
+	endif
+
+	if(correct equity gain\n----\nshould be 100%) then(no)
+		stop
+	else (yes)
+	endif
+
+	:visit;
 
 	!include footer.iuml
 

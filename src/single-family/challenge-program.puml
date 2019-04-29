@@ -4,21 +4,38 @@
 
 	!include header.iuml
 
-	Title Challenge Program
+	Title Challenge Program (Single Family)
 
 	start
 
-		:$7000;
+	#PHYSICAL:<&dollar> 7000]
 
-		repeat
-			fork
-			:work with coaches;
-			fork again
+	repeat
+		->paid;
+		:active;
+		fork
+			[[../unlimited-lifestyle/financial-freedom-program.svg?sanitize=true]]#LightSkyBlue:financial freedom program;
+		fork again
+			:mentors;
+		fork again
+			:1-on-1 consulting;
+		fork again
+			:Lifestyles realtors;
+		fork again
+			:email blasts;
+		fork again
+			:road trips;
+		fork again
+			:specialized education classes;
+
+		fork again
 			:1 year>
-			end fork
-		repeat while ($2000)
+		end fork
+		:inactive;
 
-	end
+		#PHYSICAL:<&dollar> 2000]
+	repeat while ()
+
 
 	!include footer.iuml
 
