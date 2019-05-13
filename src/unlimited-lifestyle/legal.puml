@@ -1,0 +1,42 @@
+@startuml legal
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Legal
+
+	start
+
+	if(can buy it yourself) then (yes)
+		:buy it yourself;
+	else (no)
+		:bring in partners;
+	endif
+
+
+	if(multi-family) then (yes)
+		:form simple LLC
+		----
+		partnership;
+	endif
+	:300 series for PIG members;
+	:celebration list]
+	note right
+		all leads that are certified
+	end note
+
+	:private placement memorandum]
+	note right
+		must contain
+		* who is lead
+		* background
+		* exposure
+	end note
+
+
+	end
+
+	!include footer.iuml
+
+@enduml

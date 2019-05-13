@@ -36,7 +36,7 @@
 						:work;
 						:paycheck;
 						fork
-							:save >= 60% of earnings;
+							:save >= 60% of earnings\n<i>2% interest;
 						fork again
 							:live off <= 40% of earnings;
 							floating note left:<i>act your wage
@@ -46,12 +46,24 @@
 					->yes;
 				}
 			end fork
-			[[../single-family/single-family-deal.svg?sanitize=true]]#LightSkyBlue:do (another) deal;
+			[[legal.svg?sanitize=true]]#LightSkyBlue:structure legal;
+			if(have > 50,000) then (yes)
+				[[../multi-family/multi-family-deal.svg?sanitize=true]]#LightSkyBlue:do (another)\nmulti-family deal;
+			else (no)
+				[[../single-family/single-family-deal.svg?sanitize=true]]#LightSkyBlue:do (another)\nsingle-family deal;
+				note right
+					||City||All In||
+					|Dallas|40k|
+					|Houston|??k|
+					|San Antonio|??k|
+				end note
+			endif
 			:refine process;
 		repeat while (can live off passive income)
 		->yes;
 		:quit job;
 
+		[[taxes.svg?sanitize=true]]#LightSkyBlue:pay taxes;
 
 
 	end

@@ -1,0 +1,79 @@
+@startuml insuring
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Insuring
+
+	start
+
+	partition "Selecting Policies" {
+		fork
+			:Replacement Cost Policy
+			----
+			good insurance
+			----
+			payout = 
+			damage - deductible]
+		fork again
+			#LightPink:ACV Policy
+			----
+			actual cash value
+			do not get!
+			----
+			payout = 
+			20% of damage based on age
+			- deductile]
+		fork again
+			:ordinance coverage
+			----
+			brings up to new code
+			$20 / year]
+		fork again
+			:business loss insurance
+			----
+			claim = lease lost x rent
+			30-60 day vacancy clause]
+		fork again
+			:liability insurance
+			----
+			$100,000 / 300,000]
+		fork again
+			:vehicle insurance
+			----
+			$100,000 / 300,000]
+		fork again
+			:personal residence
+			----
+			$100,000 / 300,000]
+		fork again
+			:Umbrella Policy
+			----
+			net worth]
+		fork again
+			:renters insurance]
+		end fork
+	}
+
+	:fix everything up front
+	----
+	* water
+	* gas
+	* electric;
+	note right
+		reduces issues
+	end note
+
+	partition "Making a Claim" {
+		:hire public adjuster;
+		note right
+			team?
+		end note
+	}
+
+	end
+
+	!include footer.iuml
+
+@enduml

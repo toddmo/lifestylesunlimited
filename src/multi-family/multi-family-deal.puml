@@ -1,14 +1,12 @@
-@startuml negotiating
+@startuml multi-family-deal
 
 	!include theme.iuml
 
 	!include header.iuml
 
-	Title Negotiating
+	Title Multi Family Deal
 
 	start
-		:make offer;
-		note right: buy low
 
 	end
 

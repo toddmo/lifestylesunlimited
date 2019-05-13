@@ -1,0 +1,18 @@
+@startuml finding
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Finding
+
+	start
+	[[https://www.loopnet.com/]]#LightSkyBlue:<&globe> loopnet;
+	:visit
+	----
+	go at 7 p.m.;
+	end
+
+	!include footer.iuml
+
+@enduml

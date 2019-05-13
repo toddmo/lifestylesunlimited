@@ -15,11 +15,16 @@
 		stop
 	endif
 	fork
-		#PHYSICAL:<&dollar> money activity]
+		#PHYSICAL:<&dollar> money 150]
 		floating note right:two things happening at once\nor an alternative
+		#LightPink:Problem;
 	fork again
 		:document]
 		#LightSkyBlue:link to a document]
+		#LightSkyBlue:<&globe> link to a website;
+	fork again
+		:<&clock> time period>
+		#LightPink:Time is out;
 	end fork
 	#LightSkyBlue:link to another flow chart;
 	->end;

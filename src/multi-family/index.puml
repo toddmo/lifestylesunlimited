@@ -7,9 +7,11 @@
 	Title Multi Family
 
 	fork
+		[[multi-family-deal.svg?sanitize=true]]#LightSkyBlue:Multi Family Deal;
+	fork again
 		[[preferred-investor-group-program.svg?sanitize=true]]#LightSkyBlue:Preferred Investor Group Program;
 	fork again
-		' [[challenge-program.svg?sanitize=true]]#LightSkyBlue:Challenge Program;
+		[[lead-investor-program.svg?sanitize=true]]#LightSkyBlue:Lead Investor Program;
 	end fork
 
 

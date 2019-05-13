@@ -38,7 +38,9 @@
 		end note
 		#PHYSICAL:<&dollar> conventional loan amount]
 		note right
-			75% ARV
+			* 75% ARV
+			* income to debt ratio: 
+			   75% of rent - PITI = cashflow
 		end note
 		#PHYSICAL:<&dollar> hard money closing costs]		
 		note right
@@ -66,7 +68,16 @@
 
 		if(flooring) then (yes)
 			#PHYSICAL:<&dollar> 1.69 / sq ft]
-			note right:glued vinyl planks
+			note right
+				square planks
+				glued vinyl 
+			end note
+		else (no)
+		endif
+
+		if(bath / kitchen flooring) then (yes)
+			#PHYSICAL:<&dollar> 3.50 / sq ft]
+			note right:tile
 		else (no)
 		endif
 
@@ -76,24 +87,50 @@
 		endif
 
 		if(paint) then (yes)
-			#PHYSICAL:<&dollar> 1.89 / sq ft]
+			#PHYSICAL:<&dollar> 1.85 / sq ft]
 			note right
-				PPG
-				stone mason grey
+				* PPG
+				* safety red
+				   rustoleum
+					 laminant = satin
+				* stone mason grey
+				   valspar color
+				   semi-gloss sheen
+				* never paint brick
+				
 			end note
 		else (no)
 		endif
 
 		if(appliances) then (yes)
-			#PHYSICAL:<&dollar> 1000]
+			#PHYSICAL:<&dollar> range 360]
+			#PHYSICAL:<&dollar> microwave 179]
+			#PHYSICAL:<&dollar> dishwasher 259]
 			note right
 				HD Supply
 				stainless steel
-				stove, microwave, dishwasher
+				<i>do not provide frig
 			end note
-			#PHYSICAL:<&dollar> installation]
+			#PHYSICAL:<&dollar> installation $10]
+			note right
+				sears
+			end note
 		else (no)
 		endif
+
+		#PHYSICAL:<&dollar> foundation 0]
+		note right
+			assume ok for now
+		end note
+
+		#PHYSICAL:<&dollar> roof 0]
+		note right
+			assume ok for now
+		end note
+		#PHYSICAL:<&dollar> a/c unit 0]
+		note right
+			assume ok for now
+		end note
 	}
 
 	if(income ok\n----\n$200-600 / mo) then (no)

@@ -4,36 +4,42 @@
 
 	!include header.iuml
 
-	Title Preferred Investor Group Program\n(Single & Multi-Family)
+	Title Preferred Investor Group (PIG)\nEducation & Mentoring Program\n(Single-Family and/or  Multi-Family)
 
 	start
 
-	#PHYSICAL:<&dollar> 18000]
+	#PHYSICAL:<&dollar> Commitment Fee 18,000]
+	if(challenge member) then (yes)
+		#PHYSICAL:<&dollar> Challenge Refund (7,000)]
+	else (no)
+	endif
 
 	repeat
 		->paid;
 		:active;
 		fork
-			[[../single-family/challenge-program.svg?sanitize=true]]#LightSkyBlue:challenge program;
+			[[../single-family/challenge-program.svg?sanitize=true]]#LightSkyBlue:challenge program\nbenefits;
 		fork again
-			:personalized planning session;
+			:personalized\nplanning session;
 		fork again
-			:multi-family 1-on-1 consulting;
+			:multi-family\n1-on-1 consulting;
 		fork again
-			:multi-family realtors;
+			:multi-family\nrealtors;
 		fork again
-			:multi-family road trips;
+			:multi-family\nroad trips;
 		fork again
-			:multi-family specialized education;
+			:multi-family\nspecialized education]
 		fork again
-			:preferred investor networking events;
+			:multi-family\noperator consultant;
 		fork again
-		:1 year>
+			:preferred investor\nnetworking events;
+		fork again
+		:<&clock> 1 year>
 		end fork
 		:inactive;
 
-		#PHYSICAL:<&dollar> 3000]
-	repeat while ()
+		#PHYSICAL:<&dollar> Annual Renewal 3,000]
+	repeat while (<&loop>)
 
 	!include footer.iuml
 

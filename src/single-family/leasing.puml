@@ -9,8 +9,12 @@
 	start
 
   partition "Take Application" {
-    #PHYSICAL:<&dollar> application fee
-               <i>$45]
+    #PHYSICAL:<&dollar> application fee 50]
+    :NTN search $15;
+    :NTN report]
+    note right
+      call NTN for process
+    end note
     repeat
       fork 
         :application]
@@ -40,7 +44,7 @@
         #LightPink:not acceptable
         ====
         <&ban> employer letters
-        <&ban> child support
+        <&ban> undocumented child support
         <&ban> social security]
       end fork
       note right: all occupants > 18
@@ -50,20 +54,31 @@
 
   partition Pre-Screening {
     if(is lawyer) then(yes)
+      (R)
+      stop
+    elseif(friend / relative) then(yes)
+      (R)
       stop
     elseif(tax returns profitable) then(no)
+      (R)
       stop
     elseif(income > 3 x rent) then(no)
+      (R)
       stop
     elseif(years employed < 2) then(no)
+      (R)
       stop
     elseif(is middle class) then(no)
+      (R)
       stop
     elseif(exotic pet) then(yes)
+      (R)
       stop
     elseif(pet > 35 lbs) then(yes)
+      (R)
       stop
     elseif(vicious breed pet) then(yes)
+      (R)
       stop
     endif
   }  
@@ -89,9 +104,13 @@
   }
 
   partition "Rental History Check" {
-    :call previous landlord;
+    :verify owner of previous address
+    ----
+    not current;
+    :call previous owner;
+    
     if(recommends) then(no)
-      stop
+      (R)
     endif
     ->yes;
   }
@@ -105,7 +124,7 @@
   partition "Criminal Background Check" {
     :pull criminal;
     if(violent / drugs) then(yes)
-      stop
+      (R)
     endif
     if(warrents) then(yes)
       #Plum:purple;
@@ -114,15 +133,17 @@
 
   partition "Credit Check" {
     :pull credit;
-    if(credit score < 500) 
-      stop
-    elseif(credit score < 550) 
-      #Plum:purple;
-    elseif(credit score < 650) 
-      #Pink:pink;
-    else
+    if(credit score >= 650) then (yes)
       #80FF80:green;
+    elseif(credit score >= 550) then (yes)
+      #Pink:pink;
+    elseif(credit score >= 500) then (yes)
+      #Plum:purple;
+    else (no)
+      (R)
+      stop
     endif
+
   }
 
   partition "Pet Addendum" {
@@ -142,12 +163,17 @@
         :$25 / mo / pet pet rent;
       endif
     else (fish, or no pets)
+      :inform $100/pet/day violation
+      ----
+      regardless of stay or owner
+      ----
+      small caged pets? (hamsters, turtles);
     endif
   }
 
   partition "Signing" {
     fork
-      :<&pencil> sign lease]
+      [[https://drive.google.com/open?id=0B18-6Qbo-LJ5aVB6VXY4c0JiTms]]#LightSkyBlue:<&pencil> lease]
     fork again
       #PHYSICAL:<&dollar> pet fees]
     fork again
@@ -157,15 +183,25 @@
       <&check> cashier's check
       <&ban> cash
       <&ban> check]
-      fork
+      #80FF80:if(<color:dimgrey>green) then(yes)
         #80FF80:collect 1x rent;
-      fork again
+      #Pink:elseif(<color:dimgrey>pink) then(yes)
+        :rejection letter]
         #Pink:collect 2x rent
         ----
         <i>Credit Restoration Program;
-      fork again
-        #Plum:collect 3x rent;
-      end fork
+        note right
+          not recommended
+        end note 
+      #Plum:elseif(<color:dimgrey>purple) then(yes)
+        :rejection letter]
+        #Plum:collect 3x rent
+        ----
+        only if your background is
+        * law enforcement
+        * combat
+        * "raised in the hood";
+      endif
     end fork
   }
   -><&timer> wait until move in date;
@@ -181,8 +217,16 @@
       stop
     endif
   }
+  [[single-family-deal.svg?sanitize=true]]#LightSkyBlue:manage property;
+  stop
 
-  end
+  partition Rejection {
+    (R)
+    :rejection letter]
+    :deliver rejection
+    ----
+    via email;
+  }
 
   legend right
     | color | tenant type |Notes|

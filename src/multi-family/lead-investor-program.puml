@@ -1,0 +1,48 @@
+@startuml lead-investor-program
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Lead Investor Program
+
+	start
+
+	[[preferred-investor-group-program.svg?sanitize=true]]#LightSkyBlue:preferred investor group\n----\nactive membership;		
+	#PHYSICAL:<&dollar> Certification Fee 10,000]
+
+	repeat
+		->paid;
+		:active;
+		fork
+			:SEC rules]
+		fork again
+			:white paper]
+		fork again
+			:passive investor\nchecklist]
+		fork again
+			:lead investor\ncertification track\nclasses;
+		fork again
+			repeat
+			:lead investor\ncertification\nstudy materials]
+			:lead investor\ncertification test]
+			:take test;
+			repeat while (pass with 100%)->no
+			:certified;
+		fork again
+			:<&clock> 1 year>
+		end fork
+
+		:inactive;
+
+		#PHYSICAL:<&dollar> Annual Renewal 5,000
+		----
+		<i>this covers the PIG Renewal]
+	repeat while ()
+
+
+	end
+
+	!include footer.iuml
+
+@enduml

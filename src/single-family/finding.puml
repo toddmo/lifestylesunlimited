@@ -39,7 +39,15 @@
 	}
 
 	partition Filtering {
-		if(correct housing type\n----\nsingle family house) then(no)
+		if(correct status\n----\nactive\nactive option\nnew\nback on market\nprice change) then(no)
+			stop
+		else (yes)
+			note right
+				sold?
+			end note
+		endif
+
+		if(correct housing type\n----\nsingle family detached) then(no)
 			note right
 				if you can't buy all of it
 				don't buy any of it
@@ -51,6 +59,7 @@
 		if(recent listing\n----\n <= 60 days) then(no)
 			note right
 				something is wrong with it
+				everyone has already picked over them
 			end note
 			stop
 		else (yes)
@@ -68,7 +77,7 @@
 		endif
 		
 
-		if(correct age\n----\n1970s - current) then(no)
+		if(correct age\n----\n1983 - current) then(no)
 			note right
 				lead paint
 				old pipes
@@ -81,12 +90,23 @@
 		if(correct neighborhood\n----\nnot scary\nuse google street view) then(no)
 			note right
 				high crime area
+				run search w/o filters
+				to get the big picture
 			end note
 			stop
 		else (yes)
 		endif
 
-		if(correct price\n----\n$80-180k) then(no)
+		if(correct price\n----\n$80-160k) then(no)
+			note right
+				amount of mortgage vs
+				amount of rent
+			end note
+			stop
+		else (yes)
+		endif
+
+		if(correct $/sq ft\n----\n$10-$85/sq ft) then(no)
 			note right
 				amount of mortgage vs
 				amount of rent

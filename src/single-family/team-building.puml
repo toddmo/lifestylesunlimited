@@ -19,8 +19,9 @@
 		fork again
 			:real estate agents / brokers;
 		fork again
-			:home inspectors;
-			note right: licensed only
+			:home inspectors
+			----
+			licensed only;
 		fork again
 			:insurance agents;
 		fork again
@@ -36,12 +37,15 @@
 		fork again
 			:tenant screening company;
 		fork again
-			:attorney;
-			note right: understands real estate
+			:attorney
+			----
+			understands real estate;
 		fork again
 			:cpa;
 		fork again
-			:business checking;
+			:business checking
+			----
+			can get free;
 		end fork
 	repeat while (primary and two alternates)
 	#PHYSICAL:team ready;

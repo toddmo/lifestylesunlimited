@@ -1,0 +1,38 @@
+@startuml taxes
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Taxes
+
+	start
+	
+	:1031 Tax Free Exchange]
+	note right
+		tax deferral
+	end note
+
+	:become real estate professional;
+	note right
+		removes tax limitation
+	end note
+
+	:sell property;
+	note right
+		can target multiple
+		within 45 days - target
+		within 180 days - close
+		sale price + $1
+	end note
+
+	:die;
+	note right
+		kids pay no tax
+		stepped up basis
+	end note
+	end
+
+	!include footer.iuml
+
+@enduml

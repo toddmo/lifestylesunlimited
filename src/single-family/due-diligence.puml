@@ -4,7 +4,7 @@
 
 	!include header.iuml
 
-	Title Due Diligence (Inspection)
+	Title Due Diligence\n(Inspection)
 
 
 	start
@@ -19,8 +19,13 @@
 		end fork
 		partition "Cost-Free Steps" {
 			fork
-				:generate detailed scope of work;
+				:<&arrow-thick-right> scope of work]
+				note right
+					see form
+					very specific
+				end note
 				:general contractor 1 inspection;
+				:<&arrow-thick-left> client estimate]
 				:general contractor 2 inspection;
 				:general contractor 3 inspection;
 				fork again
@@ -40,20 +45,27 @@
 		if(too expensive)
 			stop
 		endif
-		:plumber static test ($150);
+		#PHYSICAL:<&dollar> plumber static test 150-200;
 		note right
-			what is failure?
-			what to do upon failure?
+			leakdown test
+			uses camera
+			----
+			* what is failure?
+			* what to do upon failure?
 		end note
-		:termite inspection ($75-100);
+		#PHYSICAL:<&dollar> termite inspection 300;
 		note right
-			what is failure?
-			what to do upon failure?
+			* what is failure?
+			* what to do upon failure?
 		end note
-		:inspector ($200);
+		#PHYSICAL:<&dollar> inspector 200;
 		note right
-			what is failure?
-			what to do upon failure?
+			gives work needed 
+			to bring up to this year's code
+			some things are grand-fathered in
+			----
+			* what is failure?
+			* what to do upon failure?
 		end note
 		fork again
 			:7-10 Days>
@@ -62,14 +74,28 @@
 	end fork
 	:get final repair cost;
 	note right
-		San Antonio $15-25k
-		====
-		Houston $k
-		====
-		DFW $30k
+		|| City || Repairs ||
+		| San Antonio | $15-25k |
+		| Houston | $k |
+		| DFW | $30k |
+		Is this correct or is this all in?
+	end note
+	note left
+		that's ~ 10 people
+		the realtor needs to let in
+		too much work
+		they will quit after this deal
+	end note
+	:get repair time estimate;
+	note right
+		holding costs
 	end note
 	[[evaluating.svg?sanitize=true]]#LightSkyBlue:evaluate;
-	note right: analyse
+	note right
+		analyse & 
+		make new offer
+		based on damages
+	end note
 	
 
 	!include footer.iuml

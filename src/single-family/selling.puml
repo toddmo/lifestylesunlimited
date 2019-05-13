@@ -7,14 +7,21 @@
 	Title Selling
 
 	start
-
+	:<&clock> owned 1-3 years>
+	note right
+		* before maintainance becomes an issue
+		* long term capital gains are less
+	end note
 	if(selling to tenant)
 		#PHYSICAL:<&dollar> realtor fee 0]
 		note right: how?
 	else
 	endif
-
-	
+	:equity capture;
+	note right
+		* way faster than regular cash flow
+		* only way to get into bigger / more deals
+	end note
 
 	end
 

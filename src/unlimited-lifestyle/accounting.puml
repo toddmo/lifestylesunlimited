@@ -1,14 +1,12 @@
-@startuml negotiating
+@startuml accounting
 
 	!include theme.iuml
 
 	!include header.iuml
 
-	Title Negotiating
+	Title Accounting
 
 	start
-		:make offer;
-		note right: buy low
 
 	end
 

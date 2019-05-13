@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="626px" preserveAspectRatio="none" style="width:1540px;height:626px;" version="1.1" viewBox="0 0 1540 626" width="1540px" zoomAndPan="magnify"><defs><style type="text/css"><![CDATA[path:hover { stroke: #0000FF !important;}]]></style><filter height="300%" id="fpfccrxeo9q1n" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><a target="_top" xlink:actuate="onRequest" xlink:href="../index.svg?sanitize=true" xlink:show="new" xlink:title="../index.svg?sanitize=true" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="24" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="90" x="10" y="34.9141">⌂ Home</text><line style="stroke: #0000FF; stroke-width: 1.0;" x1="10" x2="100" y1="36.9141" y2="36.9141"/></a><rect fill="#EEE8AA" height="40.1875" rx="10" ry="10" style="stroke: #000080; stroke-width: 1.5;" width="103" x="717" y="42.1875"/><text fill="#000080" font-family="sans-serif" font-size="24" lengthAdjust="spacingAndGlyphs" textLength="87" x="725" y="72.1016">Insuring</text><ellipse cx="769.5" cy="95.375" fill="#CCFFCC" filter="url(#fpfccrxeo9q1n)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><rect fill="#FFFFF0" filter="url(#fpfccrxeo9q1n)" height="234.6875" style="stroke: #6495ED; stroke-width: 1.0;" width="1519" x="10" y="116.3906"/><path d="M145,117.3906 L145,129.5156 L135,139.5156 L10,139.5156 " fill="none" style="stroke: #6495ED; stroke-width: 1.0;"/><text fill="#6495ED" font-family="sans-serif" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="125" x="13" y="134">Selecting Policies</text><rect fill="#000000" filter="url(#fpfccrxeo9q1n)" height="6" rx="2.5" ry="2.5" style="stroke: #000000; stroke-width: 1.0;" width="1499" x="20" y="156.5156"/><rect fill="#FFFFF0" filter="url(#fpfccrxeo9q1n)" height="100.375" style="stroke: #6495ED; stroke-width: 1.0;" width="158" x="34" y="197.6094"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="138" x="44" y="220.0664">Replacement Cost Policy</text><line style="stroke: #6495ED; stroke-width: 1.0;" x1="34" x2="192" y1="227.7031" y2="227.7031"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="86" x="44" y="245.1602">good insurance</text><line style="stroke: #6495ED; stroke-width: 1.0;" x1="34" x2="192" y1="252.7969" y2="252.7969"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="44" y="270.2539">payout =</text><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="113" x="44" y="285.3477">damage - deductible</text><rect fill="#FFB6C1" filter="url(#fpfccrxeo9q1n)" height="130.5625" style="stroke: #6495ED; stroke-width: 1.0;" width="186" x="220" y="182.5156"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="58" x="230" y="204.9727">ACV Policy</text><line style="stroke: #6495ED; stroke-width: 1.0;" x1="220" x2="406" y1="212.6094" y2="212.6094"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="95" x="230" y="230.0664">actual cash value</text><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="57" x="230" y="245.1602">do not get!</text><line style="stroke: #6495ED; stroke-width: 1.0;" x1="220" x2="406" y1="252.7969" y2="252.7969"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="230" y="270.2539">payout =</text><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="166" x="230" y="285.3477">20% of damage based on age</text><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="57" x="230" y="300.4414">- deductile</text><rect fill="#FFFFF0" filter="url(#fpfccrxeo9q1n)" height="75.2813" style="stroke: #6495ED; stroke-width: 1.0;" width="141" x="434" y="210.1563"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="108" x="444" y="232.6133">ordinance coverage</text><line style="stroke: #6495ED; stroke-width: 1.0;" x1="434" x2="575" y1="240.25" y2="240.25"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="121" x="444" y="257.707">brings up to new code</text><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="53" x="444" y="272.8008">$20 / year</text><rect fill="#FFFFF0" filter="url(#fpfccrxeo9q1n)" height="75.2813" style="stroke: #6495ED; stroke-width: 1.0;" width="160" x="603" y="210.1563"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="137" x="613" y="232.6133">business loss insurance</text><line style="stroke: #6495ED; stroke-width: 1.0;" x1="603" x2="763" y1="240.25" y2="240.25"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="129" x="613" y="257.707">claim = lease lost x rent</text><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="140" x="613" y="272.8008">30-60 day vacancy clause</text><rect fill="#FFFFF0" filter="url(#fpfccrxeo9q1n)" height="60.1875" style="stroke: #6495ED; stroke-width: 1.0;" width="126" x="791" y="217.7031"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="95" x="801" y="240.1602">liability insurance</text><line style="stroke: #6495ED; stroke-width: 1.0;" x1="791" x2="917" y1="247.7969" y2="247.7969"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="106" x="801" y="265.2539">$100,000 / 300,000</text><rect fill="#FFFFF0" filter="url(#fpfccrxeo9q1n)" height="60.1875" style="stroke: #6495ED; stroke-width: 1.0;" width="126" x="945" y="217.7031"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="96" x="955" y="240.1602">vehicle insurance</text><line style="stroke: #6495ED; stroke-width: 1.0;" x1="945" x2="1071" y1="247.7969" y2="247.7969"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="106" x="955" y="265.2539">$100,000 / 300,000</text><rect fill="#FFFFF0" filter="url(#fpfccrxeo9q1n)" height="60.1875" style="stroke: #6495ED; stroke-width: 1.0;" width="127" x="1099" y="217.7031"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="107" x="1109" y="240.1602">personal residence</text><line style="stroke: #6495ED; stroke-width: 1.0;" x1="1099" x2="1226" y1="247.7969" y2="247.7969"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="106" x="1109" y="265.2539">$100,000 / 300,000</text><rect fill="#FFFFF0" filter="url(#fpfccrxeo9q1n)" height="60.1875" style="stroke: #6495ED; stroke-width: 1.0;" width="106" x="1254" y="217.7031"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="86" x="1264" y="240.1602">Umbrella Policy</text><line style="stroke: #6495ED; stroke-width: 1.0;" x1="1254" x2="1360" y1="247.7969" y2="247.7969"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="50" x="1264" y="265.2539">net worth</text><rect fill="#FFFFF0" filter="url(#fpfccrxeo9q1n)" height="35.0938" style="stroke: #6495ED; stroke-width: 1.0;" width="117" x="1388" y="230.25"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="97" x="1398" y="252.707">renters insurance</text><rect fill="#000000" filter="url(#fpfccrxeo9q1n)" height="6" rx="2.5" ry="2.5" style="stroke: #000000; stroke-width: 1.0;" width="1499" x="20" y="333.0781"/><path d="M856,403.0898 L856,412.2656 L836,416.2656 L856,420.2656 L856,429.4414 A0,0 0 0 0 856,429.4414 L965,429.4414 A0,0 0 0 0 965,429.4414 L965,413.0898 L955,403.0898 L856,403.0898 A0,0 0 0 0 856,403.0898 " fill="#B0C4DE" filter="url(#fpfccrxeo9q1n)" style="stroke: #6495ED; stroke-width: 1.0;"/><path d="M955,403.0898 L955,413.0898 L965,413.0898 L955,403.0898 " fill="#B0C4DE" style="stroke: #6495ED; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="862" y="421.585">reduces issues</text><rect fill="#FFFFF0" filter="url(#fpfccrxeo9q1n)" height="90.375" rx="12.5" ry="12.5" style="stroke: #6495ED; stroke-width: 1.0;" width="133" x="703" y="371.0781"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="113" x="713" y="393.5352">fix everything up front</text><line style="stroke: #6495ED; stroke-width: 1.0;" x1="703" x2="836" y1="401.1719" y2="401.1719"/><ellipse cx="718.5" cy="413.7656" fill="#696969" rx="2.5" ry="2.5" style="stroke: #696969; stroke-width: 0.0;"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="30" x="724" y="418.6289">water</text><ellipse cx="718.5" cy="428.8594" fill="#696969" rx="2.5" ry="2.5" style="stroke: #696969; stroke-width: 0.0;"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="21" x="724" y="433.7227">gas</text><ellipse cx="718.5" cy="443.9531" fill="#696969" rx="2.5" ry="2.5" style="stroke: #696969; stroke-width: 0.0;"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="39" x="724" y="448.8164">electric</text><rect fill="#FFFFF0" filter="url(#fpfccrxeo9q1n)" height="87.2188" style="stroke: #6495ED; stroke-width: 1.0;" width="222" x="697" y="472.4688"/><path d="M816,473.4688 L816,485.5938 L806,495.5938 L697,495.5938 " fill="none" style="stroke: #6495ED; stroke-width: 1.0;"/><text fill="#6495ED" font-family="sans-serif" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="109" x="700" y="490.0781">Making a Claim</text><path d="M852,516.9648 L852,526.1406 L832,530.1406 L852,534.1406 L852,543.3164 A0,0 0 0 0 852,543.3164 L909,543.3164 A0,0 0 0 0 909,543.3164 L909,526.9648 L899,516.9648 L852,516.9648 A0,0 0 0 0 852,516.9648 " fill="#B0C4DE" filter="url(#fpfccrxeo9q1n)" style="stroke: #6495ED; stroke-width: 1.0;"/><path d="M899,516.9648 L899,526.9648 L909,526.9648 L899,516.9648 " fill="#B0C4DE" style="stroke: #6495ED; stroke-width: 1.0;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="36" x="858" y="535.46">team?</text><rect fill="#FFFFF0" filter="url(#fpfccrxeo9q1n)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #6495ED; stroke-width: 1.0;" width="125" x="707" y="512.5938"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="105" x="717" y="535.0508">hire public adjuster</text><ellipse cx="769.5" cy="589.6875" fill="#FFFFFF" filter="url(#fpfccrxeo9q1n)" rx="10" ry="10" style="stroke: #FF7F50; stroke-width: 1.5;"/><line style="stroke: #FF7F50; stroke-width: 2.5;" x1="763.3128" x2="775.6872" y1="583.5003" y2="595.8747"/><line style="stroke: #FF7F50; stroke-width: 2.5;" x1="775.6872" x2="763.3128" y1="583.5003" y2="595.8747"/><line style="stroke: #696969; stroke-width: 1.5;" x1="113" x2="113" y1="162.5156" y2="197.6094"/><polygon fill="#696969" points="109,187.6094,113,197.6094,117,187.6094,113,191.6094" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="313" x2="313" y1="162.5156" y2="182.5156"/><polygon fill="#696969" points="309,172.5156,313,182.5156,317,172.5156,313,176.5156" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="504.5" x2="504.5" y1="162.5156" y2="210.1563"/><polygon fill="#696969" points="500.5,200.1563,504.5,210.1563,508.5,200.1563,504.5,204.1563" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="683" x2="683" y1="162.5156" y2="210.1563"/><polygon fill="#696969" points="679,200.1563,683,210.1563,687,200.1563,683,204.1563" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="854" x2="854" y1="162.5156" y2="217.7031"/><polygon fill="#696969" points="850,207.7031,854,217.7031,858,207.7031,854,211.7031" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="1008" x2="1008" y1="162.5156" y2="217.7031"/><polygon fill="#696969" points="1004,207.7031,1008,217.7031,1012,207.7031,1008,211.7031" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="1162.5" x2="1162.5" y1="162.5156" y2="217.7031"/><polygon fill="#696969" points="1158.5,207.7031,1162.5,217.7031,1166.5,207.7031,1162.5,211.7031" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="1307" x2="1307" y1="162.5156" y2="217.7031"/><polygon fill="#696969" points="1303,207.7031,1307,217.7031,1311,207.7031,1307,211.7031" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="1446.5" x2="1446.5" y1="162.5156" y2="230.25"/><polygon fill="#696969" points="1442.5,220.25,1446.5,230.25,1450.5,220.25,1446.5,224.25" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="113" x2="113" y1="297.9844" y2="333.0781"/><polygon fill="#696969" points="109,323.0781,113,333.0781,117,323.0781,113,327.0781" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="313" x2="313" y1="313.0781" y2="333.0781"/><polygon fill="#696969" points="309,323.0781,313,333.0781,317,323.0781,313,327.0781" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="504.5" x2="504.5" y1="285.4375" y2="333.0781"/><polygon fill="#696969" points="500.5,323.0781,504.5,333.0781,508.5,323.0781,504.5,327.0781" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="683" x2="683" y1="285.4375" y2="333.0781"/><polygon fill="#696969" points="679,323.0781,683,333.0781,687,323.0781,683,327.0781" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="854" x2="854" y1="277.8906" y2="333.0781"/><polygon fill="#696969" points="850,323.0781,854,333.0781,858,323.0781,854,327.0781" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="1008" x2="1008" y1="277.8906" y2="333.0781"/><polygon fill="#696969" points="1004,323.0781,1008,333.0781,1012,323.0781,1008,327.0781" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="1162.5" x2="1162.5" y1="277.8906" y2="333.0781"/><polygon fill="#696969" points="1158.5,323.0781,1162.5,333.0781,1166.5,323.0781,1162.5,327.0781" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="1307" x2="1307" y1="277.8906" y2="333.0781"/><polygon fill="#696969" points="1303,323.0781,1307,333.0781,1311,323.0781,1307,327.0781" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="1446.5" x2="1446.5" y1="265.3438" y2="333.0781"/><polygon fill="#696969" points="1442.5,323.0781,1446.5,333.0781,1450.5,323.0781,1446.5,327.0781" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="769.5" x2="769.5" y1="105.375" y2="156.5156"/><polygon fill="#696969" points="765.5,146.5156,769.5,156.5156,773.5,146.5156,769.5,150.5156" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="769.5" x2="769.5" y1="339.0781" y2="371.0781"/><polygon fill="#696969" points="765.5,361.0781,769.5,371.0781,773.5,361.0781,769.5,365.0781" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="769.5" x2="769.5" y1="461.4531" y2="512.5938"/><polygon fill="#696969" points="765.5,502.5938,769.5,512.5938,773.5,502.5938,769.5,506.5938" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="769.5" x2="769.5" y1="547.6875" y2="579.6875"/><polygon fill="#696969" points="765.5,569.6875,769.5,579.6875,773.5,569.6875,769.5,573.6875" style="stroke: #696969; stroke-width: 1.0;"/><text fill="#000080" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="10" y="613.2207">©2019</text><a target="_top" xlink:actuate="onRequest" xlink:href="http://www.lifestylesunlimited.com" xlink:show="new" xlink:title="http://www.lifestylesunlimited.com" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="122" x="56" y="613.2207">LifeStyles Unlimited</text><line style="stroke: #0000FF; stroke-width: 1.0;" x1="56" x2="178" y1="615.2207" y2="615.2207"/></a><text fill="#000080" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="283" x="182" y="613.2207">| Generated Sun May 12 17:24:40 CDT 2019</text><!--
+@startuml insuring
+
+
+skinparam {
+  BorderColor Red
+  PathHoverColor Blue
+}
+
+skinparam Title {
+  FontColor Navy
+  BackgroundColor PaleGoldenRod
+  BorderColor Navy
+  BorderRoundCorner 20
+  FontSize 24
+}
+
+skinparam activity {
+  BackgroundColor Ivory
+  BorderColor CornflowerBlue
+  BorderThickness 1
+  FontColor DimGray
+  
+
+  Arrow {
+    Color dimgray
+    FontColor dimgray
+  }
+
+  Start {
+    Color PHYSICAL
+  }
+
+  End {
+    Color Coral
+  }
+
+  Diamond {
+    BackgroundColor Ivory
+    BorderColor CornflowerBlue
+    FontColor DarkGray
+  }
+
+  BackgroundColor<< Exception >> Red
+	BorderColor<< Exception >> White
+}
+
+skinparam Swimlane {
+  BorderColor CornflowerBlue 
+}
+
+skinparam Partition {
+  BackgroundColor Ivory
+  BorderColor CornflowerBlue
+  BorderThickness 1
+  FontColor CornflowerBlue
+  FontSize 16
+  BorderRoundCorner 20
+}
+
+skinparam Note {
+  BackgroundColor LightSteelBlue
+  BorderColor CornflowerBlue
+  FontColor White
+}
+
+skinparam Legend {
+  BackgroundColor LightSteelBlue
+  BorderColor CornflowerBlue
+  FontColor White
+}
+
+skinparam Footer {
+  FontColor Navy
+}
+
+
+left header 
+	<font color=Navy size=24>[[../index.svg?sanitize=true ⌂ Home]]</font>
+endheader
+
+
+	Title Insuring
+
+	start
+
+	partition "Selecting Policies" {
+		fork
+			:Replacement Cost Policy
+			- - - -
+			good insurance
+			- - - -
+			payout = 
+			damage - deductible]
+		fork again
+			#LightPink:ACV Policy
+			- - - -
+			actual cash value
+			do not get!
+			- - - -
+			payout = 
+			20% of damage based on age
+			- deductile]
+		fork again
+			:ordinance coverage
+			- - - -
+			brings up to new code
+			$20 / year]
+		fork again
+			:business loss insurance
+			- - - -
+			claim = lease lost x rent
+			30-60 day vacancy clause]
+		fork again
+			:liability insurance
+			- - - -
+			$100,000 / 300,000]
+		fork again
+			:vehicle insurance
+			- - - -
+			$100,000 / 300,000]
+		fork again
+			:personal residence
+			- - - -
+			$100,000 / 300,000]
+		fork again
+			:Umbrella Policy
+			- - - -
+			net worth]
+		fork again
+			:renters insurance]
+		end fork
+	}
+
+	:fix everything up front
+	- - - -
+	* water
+	* gas
+	* electric;
+	note right
+		reduces issues
+	end note
+
+	partition "Making a Claim" {
+		:hire public adjuster;
+		note right
+			team?
+		end note
+	}
+
+	end
+
+
+left footer 
+	<font size=14>©2019 [[http://www.lifestylesunlimited.com LifeStyles Unlimited]] | Generated Sun May 12 17:24:40 CDT 2019</font>
+endfooter
+
+
+@enduml
+
+PlantUML version 1.2019.03(Sun Mar 10 06:04:44 CDT 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_111-b14
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

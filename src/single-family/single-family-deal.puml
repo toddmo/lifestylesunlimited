@@ -8,6 +8,8 @@
 
 	start
 
+	[[../unlimited-lifestyle/insuring.svg?sanitize=true]]#LightSkyBlue:insure;
+
 	[[finding.svg?sanitize=true]]#LightSkyBlue:find;
 	:compare;
 	[[evaluating.svg?sanitize=true]]#LightSkyBlue:analyse;
@@ -30,14 +32,16 @@
 				fork again
 					repeat
 						-><&timer>\nrent due;
-						:collect rent;
+						#PHYSICAL:<&dollar> rent
+						<i>principal pay down 
+						<i>build up equity]
 					repeat while(rent paid?)->yes
 					->no;
 					[[evicting.svg?sanitize=true]]#LightSkyBlue:evict;
 				end fork
 			fork again
 				:May 15>
-				[[protest-property-taxes.svg?sanitize=true]]#LightSkyBlue:Protest Property Taxes;
+				[[protest-property-taxes.svg?sanitize=true]]#LightSkyBlue:protest property taxes;
 			end fork
 
 				-> move out;

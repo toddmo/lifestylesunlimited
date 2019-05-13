@@ -7,9 +7,10 @@
 	Title Negotiating
 
 	start
-		:make offer;
-		note right: buy low
-
+	:make offer
+	----
+	±      10% asking price
+	no low-balling;
 	end
 
 	!include footer.iuml

@@ -7,38 +7,82 @@
 	Title Evicting
 
 	start
-	->tenent violates lease;
+	partition "Violation" {
+		fork
+			:fail to pay rent;
+		fork again
+			:surpise pet;
+		fork again
+			:straw person;
+		end fork
+	}
+	
 	:obtain proof of violation;
 
 	partition "Notice of Eviction" {
 		note left: see document hub for more details
 		if(rent is late) then (yes)
 			fork
-				#PHYSICAL:<&dollar> late fees]
+				#PHYSICAL:<&dollar> late fees\n----\n50 + 10 / day]
+			fork again
+				#PHYSICAL:<&dollar> pet fine\n----\n100/pet/day]
 			fork again
 				[[https://drive.google.com/open?id=0B18-6Qbo-LJ5Y3d0V1VBeGRHWlE]]#LightSkyBlue:Texas Notice To Vacate - Failure to Pay Rent]
 			end fork
 		else (no)
-			[[https://drive.google.com/open?id=0B18-6Qbo-LJ5U2pkTXRaMTg3SjQ]]#LightSkyBlue:notice to vacate\n----\n<i>eviction notice\n3 days to vacate]
+			[[https://drive.google.com/open?id=0B18-6Qbo-LJ5U2pkTXRaMTg3SjQ]]#LightSkyBlue:notice to vacate\n----\n<i>eviction notice]
 		endif
 	}
 	
-	-><&timer> 3 days later;
+	fork
+		:tenant moves out;
+	fork again
+		:<&timer> 3 days>
+	end fork
 
-	partition "Filing a Eviction Suit" {
+	if(vacates on time) then (no)
+
+		partition "Filing a Eviction Suit" {
+			fork
+				:Summons]
+			fork again
+				:Complaint]
+			fork again
+				#PHYSICAL:<&dollar> filing fee <&arrow-thick-right> 150]
+			end fork
+		}
+
+		-><&timer> court date;	
+
+		partition "Eviction Hearing" {
+			if(shows up) then(no)
+			else (yes)
+				:evidence]
+				:present evidence;
+				if(late rent) then(no)
+					if(judge rules in my favor) then (no)
+						:judgement in tenant's favor]
+						#LightPink:now what?;
+						stop
+					else (yes)
+					endif
+				else (yes)
+					if(tenant has all late rent) then(yes)
+						:do not accept late rent;
+					else (no)
+						:do not accept mediation;
+					endif
+				endif
+			endif
+			:judgement in my favor]
+		}
+
 		fork
-			:Summons]
+			:tenant moves out;
 		fork again
-			:Complaint]
-		fork again
-			#PHYSICAL:<&dollar> filing fee <&arrow-thick-right> 150]
+			:<&timer> 7 days>
 		end fork
-	}
 
-	-><&timer> court date;	
-
-	if(prevail) then (yes\n<&timer> has 7 days to leave)
-		
 		if(vacates on time) then (no)
 			partition "Enforce Eviction" {
 				fork
@@ -46,26 +90,39 @@
 				fork again
 					#PHYSICAL:<&dollar> fee <&arrow-thick-right> 150-200]	
 				end fork
+				:notice]
+				:sheriff delivers notice;
 			}
-			-><&timer> has 24 hours to leave;
+			fork
+				:tenant moves out;
+			fork again
+				:<&timer> 24 hours>
+			end fork
 			if(vacates on time) then (no)
 				partition "Physical Eviction" {
 					fork
-						:sheriff performs eviction;
+						-><&people> occupants;
+						:sheriff enforces eviction;
 					fork again
-						:movers move trash to the trash;
-						note right:sheriff decides what can be trashed
-					fork again
-						:movers move property to curb;
+						-><&home> property;
+						if(sheriff says it's trash) then (no)
+							:movers move to curb;
+							fork 
+								:tenant retrieves property;
+							fork again
+								:<&timer> 24 hours>
+								:dispose of property;
+							end fork
+						else (yes)
+							:<&trash> movers to the trash;
+						endif
 					end fork
 				}
-				-><&timer> tenant has 24 hours to retrieve property;
 			else (yes)
 			endif
 		else (yes)
 		endif
-	else (no)
-		#Plum:now what?;
+	else (yes)
 	endif
 	:change locks;
 	end

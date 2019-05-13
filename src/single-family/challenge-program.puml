@@ -4,11 +4,11 @@
 
 	!include header.iuml
 
-	Title Challenge Program (Single Family)
+	Title Challenge Education & Mentoring Program\n(Single Family)
 
 	start
 
-	#PHYSICAL:<&dollar> 7000]
+	#PHYSICAL:<&dollar> Enrollment Fee 7,000]
 
 	repeat
 		->paid;
@@ -22,9 +22,14 @@
 		fork again
 			:Lifestyles realtors;
 		fork again
-			:email blasts;
+			:<&email> email blast;
+			:<&email> reply for package;
+			:package]
 		fork again
-			:road trips;
+			:road trips
+			----
+			<i>may include vendors;
+
 		fork again
 			:specialized education classes;
 
@@ -33,8 +38,16 @@
 		end fork
 		:inactive;
 
-		#PHYSICAL:<&dollar> 2000]
+		#PHYSICAL:<&dollar> Annual Renewal 2,000]
 	repeat while ()
+
+	legend 
+		ready to buy program
+		
+		for new members
+		mentors find deal just for you
+		goal: get 1st property <= 30 days
+	end legend
 
 
 	!include footer.iuml

@@ -1,15 +1,14 @@
-@startuml negotiating
+@startuml evaluating
 
 	!include theme.iuml
 
 	!include header.iuml
 
-	Title Negotiating
+	Title Evaluating
 
 	start
-		:make offer;
-		note right: buy low
-
+	:LU Spreadsheet]
+	
 	end
 
 	!include footer.iuml

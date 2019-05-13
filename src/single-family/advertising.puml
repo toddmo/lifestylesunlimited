@@ -22,7 +22,12 @@
 		fork again
 			:<&envelope-closed> get application email
 			----
-			<i>address_apps@gmail.com;
+			<i>address_applications@gmail.com;
+		fork again
+			:<&cloud> get craigs list account
+			----
+			use address@gmail.com for email;
+			
 		fork again
 			:<&cloud> get paypal account;
 			:<&envelope-closed> paypal email address
@@ -33,63 +38,80 @@
 			:<&rss> get youtube channel
 			----
 			<&user> <i>user name: property;
-			:<&video> upload property tour video;
+			:<&video> upload property tour video
+			----
+			share with private link
+			put all ad links in the description;
 		end fork
 
-		:set up the inquiry email
-		<i>auto-respond message
-		<i>this is like a website
+		:compose online add
 		----
-		<&envelope-open> reply-to: address_apps@gmail.com
-		----
-		<&pencil> thank you message
-		<&pencil> online ad content
-		<&magnifying-glass> criteria
-		<&image> floor plan
-		<&image> pictures
-		<&map> map
-		<&video> <color:cornflowerblue> youtube tour video
-		<&dollar> paypal payment instructions
-		----
-		<&paperclip> application
-		<&paperclip> credit / criminal permission from
-		;
-		note right
-			how to set up
-			====
-			# Gmail -> Settings -> Advanced
-			  turn on canned responses
-			# Compose email as shown here
-			# ⁞ on bottom menu -> Canned responses -> 
-			  Save draft as template -> property name
-			# Settings -> Filters -> Create new filter
-			# filter action -> Send canned response -> property name
-		end note
-	}
+		* <&image> pictures of rooms
+		** front
+		** bath
+		** kitchen
+		** living
+		** floor plan
+		* <&map> map
+		* <&video> <color:cornflowerblue> youtube tour video
+		* location large (area of town)
+		* location small (subdivision)
+		* size
+		* amenities
+		* schools / bus route
+		* date available
+		* crime for area
+		* application criteria
+		* repairs
+			<i>"to be complete before move-in"
+		* rent amount
+		* address
+		* phone, address@gmail.com, name
+		]
 
-	partition "House Preparation" {
 		fork
-			:open all blinds;
+			:set up the inquiry email
+			<i>auto-respond message
+			<i>this is like a website
+			----
+			<&envelope-open> reply-to: address_apps@gmail.com
+			----
+			<&pencil> thank you message
+			<&pencil> online ad content
+			<&map> map
+			<&video> <color:cornflowerblue> youtube tour video
+			<&dollar> paypal payment instructions
+			----
+			<&paperclip> application
+			<&paperclip> credit / criminal permission from
+			;
+			note right
+				how to set up
+				====
+				# Gmail -> Settings -> Advanced
+					turn on canned responses
+				# Compose email as shown here
+				# ⁞ on bottom menu -> Canned responses -> 
+					Save draft as template -> property name
+				# Settings -> Filters -> Create new filter
+				# filter action -> Send canned response -> property name
+			end note
 		fork again
-			:unlock gates;
+			:set up outgoing phone message;
+		fork again
+			partition "House Preparation" {
+				fork
+					:open all blinds;
+				fork again
+					:unlock gates;
+				end fork
+			}
 		end fork
 	}
 
 	partition Advertising {
 		fork
-			:put info in window
-			====
-			* pictures of rooms
-			** front
-			** bath
-			** kitchen
-			** living
-			* amenities
-			* crime for area
-			* application criteria
-			;
-		fork again
-			#Magenta:sign in front yard
+			#BUSINESS:sign in front yard
 			<i>neon pink from walmart
 			<i>written with a sharpie
 			<i>90% of leases come from this
@@ -101,30 +123,18 @@
 			| property@gmail.com||
 			]
 		fork again
-			:online add
-			====
-			* location large (area of town)
-			* location small (subdivision)
-			* size
-			* amenities
-			* date available
-			* repairs
-			  <i>"to be complete before move-in"
-			* rent amount
-			* address
-			* phone, email, name
-			]
-			fork 
-				:newspaper;
-			fork again
-				[[https://dallas.craigslist.org]]#LightSkyBlue:<&globe> craig's list;
-			fork again
-				[[https://postless.com]]#LightSkyBlue:<&globe> postless;
-			fork again
-				[[https://cozy.co]]#LightSkyBlue:<&globe> cozy;
-			fork again
-				:outgoing phone message;
-			end fork
+			:newspaper;
+		fork again
+			[[https://dallas.craigslist.org]]#LightSkyBlue:<&globe> craig's list\n----\nallow direct replies to email;
+		fork again
+			[[https://postless.com]]#LightSkyBlue:<&globe> postless;
+		fork again
+			[[https://cozy.co]]#LightSkyBlue:<&globe> cozy\n----\nfree\nonline applications;
+		fork again
+			:put info in window
+			----
+			print out online ad;
+
 		end fork
 	}
 

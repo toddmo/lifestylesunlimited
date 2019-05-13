@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1028px" preserveAspectRatio="none" style="width:791px;height:1028px;" version="1.1" viewBox="0 0 791 1028" width="791px" zoomAndPan="magnify"><defs><style type="text/css"><![CDATA[path:hover { stroke: #0000FF !important;}]]></style><filter height="300%" id="f19grp1vk3iefn" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><a target="_top" xlink:actuate="onRequest" xlink:href="../index.svg?sanitize=true" xlink:show="new" xlink:title="../index.svg?sanitize=true" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="24" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="90" x="10" y="34.9141">⌂ Home</text><line style="stroke: #0000FF; stroke-width: 1.0;" x1="10" x2="100" y1="36.9141" y2="36.9141"/></a><rect fill="#EEE8AA" height="40.1875" rx="10" ry="10" style="stroke: #000080; stroke-width: 1.5;" width="259" x="264.5" y="42.1875"/><text fill="#000080" font-family="sans-serif" font-size="24" lengthAdjust="spacingAndGlyphs" textLength="243" x="272.5" y="72.1016">Lead Investor Program</text><ellipse cx="381.5" cy="95.375" fill="#CCFFCC" filter="url(#f19grp1vk3iefn)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><a target="_top" xlink:actuate="onRequest" xlink:href="preferred-investor-group-program.svg?sanitize=true" xlink:show="new" xlink:title="preferred-investor-group-program.svg?sanitize=true" xlink:type="simple"><rect fill="#87CEFA" filter="url(#f19grp1vk3iefn)" height="60.1875" rx="12.5" ry="12.5" style="stroke: #6495ED; stroke-width: 1.0;" width="151" x="306" y="125.375"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="131" x="316" y="147.832">preferred investor group</text><line style="stroke: #6495ED; stroke-width: 1.0;" x1="306" x2="457" y1="155.4688" y2="155.4688"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="105" x="316" y="172.9258">active membership</text></a><rect fill="#CCFFCC" filter="url(#f19grp1vk3iefn)" height="35.0938" style="stroke: #6495ED; stroke-width: 1.0;" width="163" x="300" y="205.5625"/><path d="M314,219.6563 L314,220.6563 L313.25,220.6563 C312.564,220.6563 312,221.2203 312,221.9063 L312,222.4063 C312,223.0843 312.437,223.6483 313.094,223.8123 L315.657,224.4683 C315.8,224.5043 316.001,224.7643 316.001,224.9063 L316.001,225.4063 C316.001,225.5403 315.885,225.6563 315.751,225.6563 L313.251,225.6563 C313.135,225.6563 313.039,225.6193 313.001,225.5933 L313.001,224.6553 L312.001,224.6553 L312.001,225.6553 C312.001,225.9973 312.204,226.2823 312.439,226.4363 C312.673,226.5913 312.957,226.6553 313.252,226.6553 L314.002,226.6553 L314.002,227.6553 L315.002,227.6553 L315.002,226.6553 L315.752,226.6553 C316.438,226.6553 317.002,226.0913 317.002,225.4053 L317.002,224.9053 C317.002,224.2273 316.565,223.6633 315.908,223.4993 L313.345,222.8433 C313.202,222.8073 313.001,222.5473 313.001,222.4053 L313.001,221.9053 C313.001,221.7713 313.117,221.6553 313.251,221.6553 L315.751,221.6553 C315.867,221.6553 315.963,221.6923 316.001,221.7183 L316.001,222.6563 L317.001,222.6563 L317.001,221.6563 C317.001,221.3143 316.798,221.0293 316.563,220.8753 C316.329,220.7203 316.045,220.6563 315.75,220.6563 L315,220.6563 L315,219.6563 L314,219.6563 " fill="#696969" style="stroke: ; stroke-width: 0.0; stroke-dasharray: ;"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="130" x="323" y="228.0195">Certification Fee 10,000</text><rect fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #6495ED; stroke-width: 1.0;" width="51" x="356" y="326.4912"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="31" x="366" y="348.9482">active</text><rect fill="#000000" filter="url(#f19grp1vk3iefn)" height="6" rx="2.5" ry="2.5" style="stroke: #000000; stroke-width: 1.0;" width="743" x="10" y="381.585"/><rect fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" height="35.0938" style="stroke: #6495ED; stroke-width: 1.0;" width="76" x="24" y="564.3662"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="34" y="586.8232">SEC rules</text><rect fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" height="35.0938" style="stroke: #6495ED; stroke-width: 1.0;" width="84" x="128" y="564.3662"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64" x="138" y="586.8232">white paper</text><rect fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" height="50.1875" style="stroke: #6495ED; stroke-width: 1.0;" width="109" x="240" y="556.8193"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="89" x="250" y="579.2764">passive investor</text><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="48" x="250" y="594.3701">checklist</text><rect fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" height="65.2813" rx="12.5" ry="12.5" style="stroke: #6495ED; stroke-width: 1.0;" width="111" x="377" y="549.2725"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="387" y="571.7295">lead investor</text><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="91" x="387" y="586.8232">certification track</text><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="44" x="387" y="601.917">classes</text><rect fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" height="65.2813" style="stroke: #6495ED; stroke-width: 1.0;" width="104" x="516.5" y="451.585"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="526.5" y="474.042">lead investor</text><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="62" x="526.5" y="489.1357">certification</text><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="526.5" y="504.2295">study materials</text><rect fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" height="50.1875" style="stroke: #6495ED; stroke-width: 1.0;" width="105" x="516" y="536.8662"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="526" y="559.3232">lead investor</text><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="85" x="526" y="574.417">certification test</text><rect fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #6495ED; stroke-width: 1.0;" width="66" x="535.5" y="622.0537"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="545.5" y="644.5107">take test</text><polygon fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" points="568.5,407.585,580.5,419.585,568.5,431.585,556.5,419.585,568.5,407.585" style="stroke: #6495ED; stroke-width: 1.0;"/><polygon fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" points="529,677.1475,608,677.1475,620,689.1475,608,701.1475,529,701.1475,517,689.1475,529,677.1475" style="stroke: #6495ED; stroke-width: 1.0;"/><text fill="#A9A9A9" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="529" y="693.6484">pass with 100%</text><rect fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #6495ED; stroke-width: 1.0;" width="63" x="537" y="721.1475"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="547" y="743.6045">certified</text><polygon fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" points="673,564.3662,739,564.3662,749,581.9131,739,599.46,673,599.46" style="stroke: #6495ED; stroke-width: 1.0;"/><path d="M688,578.46 C685.797,578.46 684,580.257 684,582.46 C684,584.663 685.797,586.46 688,586.46 C690.203,586.46 692,584.663 692,582.46 C692,580.257 690.203,578.46 688,578.46 M688,579.46 C689.663,579.46 691,580.797 691,582.46 C691,584.123 689.663,585.46 688,585.46 C686.337,585.46 685,584.123 685,582.46 C685,580.797 686.337,579.46 688,579.46 M687.5,580.46 L687.5,582.679 L687.656,582.804 L688.156,583.304 L688.5,583.679 L689.219,582.96 L688.844,582.616 L688.5,582.272 L688.5,580.459 L687.5,580.459 " fill="#696969" style="stroke: ; stroke-width: 0.0; stroke-dasharray: ;"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33" x="696" y="586.8232">1 year</text><rect fill="#000000" filter="url(#f19grp1vk3iefn)" height="6" rx="2.5" ry="2.5" style="stroke: #000000; stroke-width: 1.0;" width="743" x="10" y="776.2412"/><rect fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #6495ED; stroke-width: 1.0;" width="61" x="351" y="802.2412"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="41" x="361" y="824.6982">inactive</text><rect fill="#CCFFCC" filter="url(#f19grp1vk3iefn)" height="60.1875" style="stroke: #6495ED; stroke-width: 1.0;" width="173" x="295" y="857.335"/><path d="M309,871.4287 L309,872.4287 L308.25,872.4287 C307.564,872.4287 307,872.9927 307,873.6787 L307,874.1787 C307,874.8567 307.437,875.4207 308.094,875.5847 L310.657,876.2407 C310.8,876.2767 311.001,876.5367 311.001,876.6787 L311.001,877.1787 C311.001,877.3127 310.885,877.4287 310.751,877.4287 L308.251,877.4287 C308.135,877.4287 308.039,877.3917 308.001,877.3657 L308.001,876.4277 L307.001,876.4277 L307.001,877.4277 C307.001,877.7697 307.204,878.0547 307.439,878.2087 C307.673,878.3637 307.957,878.4277 308.252,878.4277 L309.002,878.4277 L309.002,879.4277 L310.002,879.4277 L310.002,878.4277 L310.752,878.4277 C311.438,878.4277 312.002,877.8637 312.002,877.1777 L312.002,876.6777 C312.002,875.9997 311.565,875.4357 310.908,875.2717 L308.345,874.6157 C308.202,874.5797 308.001,874.3197 308.001,874.1777 L308.001,873.6777 C308.001,873.5437 308.117,873.4277 308.251,873.4277 L310.751,873.4277 C310.867,873.4277 310.963,873.4647 311.001,873.4907 L311.001,874.4287 L312.001,874.4287 L312.001,873.4287 C312.001,873.0867 311.798,872.8017 311.563,872.6477 C311.329,872.4927 311.045,872.4287 310.75,872.4287 L310,872.4287 L310,871.4287 L309,871.4287 " fill="#696969" style="stroke: ; stroke-width: 0.0; stroke-dasharray: ;"/><text fill="#696969" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="124" x="318" y="879.792">Annual Renewal 5,000</text><line style="stroke: #6495ED; stroke-width: 1.0;" x1="295" x2="468" y1="887.4287" y2="887.4287"/><text fill="#696969" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="153" x="305" y="904.8857">this covers the PIG Renewal</text><polygon fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" points="381.5,260.6563,393.5,272.6563,381.5,284.6563,369.5,272.6563,381.5,260.6563" style="stroke: #6495ED; stroke-width: 1.0;"/><polygon fill="#FFFFF0" filter="url(#f19grp1vk3iefn)" points="381.5,937.5225,381.5,937.5225,393.5,949.5225,381.5,961.5225,381.5,961.5225,369.5,949.5225,381.5,937.5225" style="stroke: #6495ED; stroke-width: 1.0;"/><ellipse cx="381.5" cy="991.5225" fill="#FFFFFF" filter="url(#f19grp1vk3iefn)" rx="10" ry="10" style="stroke: #FF7F50; stroke-width: 1.5;"/><line style="stroke: #FF7F50; stroke-width: 2.5;" x1="375.3128" x2="387.6872" y1="985.3353" y2="997.7096"/><line style="stroke: #FF7F50; stroke-width: 2.5;" x1="387.6872" x2="375.3128" y1="985.3353" y2="997.7096"/><line style="stroke: #696969; stroke-width: 1.5;" x1="381.5" x2="381.5" y1="105.375" y2="125.375"/><polygon fill="#696969" points="377.5,115.375,381.5,125.375,385.5,115.375,381.5,119.375" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="381.5" x2="381.5" y1="185.5625" y2="205.5625"/><polygon fill="#696969" points="377.5,195.5625,381.5,205.5625,385.5,195.5625,381.5,199.5625" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="568.5" x2="568.5" y1="516.8662" y2="536.8662"/><polygon fill="#696969" points="564.5,526.8662,568.5,536.8662,572.5,526.8662,568.5,530.8662" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="568.5" x2="568.5" y1="587.0537" y2="622.0537"/><polygon fill="#696969" points="564.5,612.0537,568.5,622.0537,572.5,612.0537,568.5,616.0537" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="568.5" x2="568.5" y1="431.585" y2="451.585"/><polygon fill="#696969" points="564.5,441.585,568.5,451.585,572.5,441.585,568.5,445.585" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="620" x2="633" y1="689.1475" y2="689.1475"/><polygon fill="#696969" points="629,556.8662,633,546.8662,637,556.8662,633,552.8662" style="stroke: #696969; stroke-width: 1.5;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="633" x2="633" y1="419.585" y2="689.1475"/><line style="stroke: #696969; stroke-width: 1.5;" x1="633" x2="580.5" y1="419.585" y2="419.585"/><polygon fill="#696969" points="590.5,415.585,580.5,419.585,590.5,423.585,586.5,419.585" style="stroke: #696969; stroke-width: 1.0;"/><text fill="#696969" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="12" x="637" y="693.6484">no</text><line style="stroke: #696969; stroke-width: 1.5;" x1="568.5" x2="568.5" y1="657.1475" y2="677.1475"/><polygon fill="#696969" points="564.5,667.1475,568.5,677.1475,572.5,667.1475,568.5,671.1475" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="568.5" x2="568.5" y1="701.1475" y2="721.1475"/><polygon fill="#696969" points="564.5,711.1475,568.5,721.1475,572.5,711.1475,568.5,715.1475" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="62" x2="62" y1="387.585" y2="564.3662"/><polygon fill="#696969" points="58,554.3662,62,564.3662,66,554.3662,62,558.3662" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="170" x2="170" y1="387.585" y2="564.3662"/><polygon fill="#696969" points="166,554.3662,170,564.3662,174,554.3662,170,558.3662" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="294.5" x2="294.5" y1="387.585" y2="556.8193"/><polygon fill="#696969" points="290.5,546.8193,294.5,556.8193,298.5,546.8193,294.5,550.8193" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="432.5" x2="432.5" y1="387.585" y2="549.2725"/><polygon fill="#696969" points="428.5,539.2725,432.5,549.2725,436.5,539.2725,432.5,543.2725" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="568.5" x2="568.5" y1="387.585" y2="407.585"/><polygon fill="#696969" points="564.5,397.585,568.5,407.585,572.5,397.585,568.5,401.585" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="706" x2="706" y1="387.585" y2="564.3662"/><polygon fill="#696969" points="702,554.3662,706,564.3662,710,554.3662,706,558.3662" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="62" x2="62" y1="599.46" y2="776.2412"/><polygon fill="#696969" points="58,766.2412,62,776.2412,66,766.2412,62,770.2412" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="170" x2="170" y1="599.46" y2="776.2412"/><polygon fill="#696969" points="166,766.2412,170,776.2412,174,766.2412,170,770.2412" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="294.5" x2="294.5" y1="607.0068" y2="776.2412"/><polygon fill="#696969" points="290.5,766.2412,294.5,776.2412,298.5,766.2412,294.5,770.2412" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="432.5" x2="432.5" y1="614.5537" y2="776.2412"/><polygon fill="#696969" points="428.5,766.2412,432.5,776.2412,436.5,766.2412,432.5,770.2412" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="568.5" x2="568.5" y1="756.2412" y2="776.2412"/><polygon fill="#696969" points="564.5,766.2412,568.5,776.2412,572.5,766.2412,568.5,770.2412" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="706" x2="706" y1="599.46" y2="776.2412"/><polygon fill="#696969" points="702,766.2412,706,776.2412,710,766.2412,706,770.2412" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="381.5" x2="381.5" y1="361.585" y2="381.585"/><polygon fill="#696969" points="377.5,371.585,381.5,381.585,385.5,371.585,381.5,375.585" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="381.5" x2="381.5" y1="782.2412" y2="802.2412"/><polygon fill="#696969" points="377.5,792.2412,381.5,802.2412,385.5,792.2412,381.5,796.2412" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="381.5" x2="381.5" y1="837.335" y2="857.335"/><polygon fill="#696969" points="377.5,847.335,381.5,857.335,385.5,847.335,381.5,851.335" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="381.5" x2="381.5" y1="284.6563" y2="326.4912"/><polygon fill="#696969" points="377.5,316.4912,381.5,326.4912,385.5,316.4912,381.5,320.4912" style="stroke: #696969; stroke-width: 1.0;"/><text fill="#696969" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="20" x="385.5" y="306.9922">paid</text><line style="stroke: #696969; stroke-width: 1.5;" x1="393.5" x2="765" y1="949.5225" y2="949.5225"/><polygon fill="#696969" points="761,639.5068,765,629.5068,769,639.5068,765,635.5068" style="stroke: #696969; stroke-width: 1.5;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="765" x2="765" y1="272.6563" y2="949.5225"/><line style="stroke: #696969; stroke-width: 1.5;" x1="765" x2="393.5" y1="272.6563" y2="272.6563"/><polygon fill="#696969" points="403.5,268.6563,393.5,272.6563,403.5,276.6563,399.5,272.6563" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="381.5" x2="381.5" y1="917.5225" y2="937.5225"/><polygon fill="#696969" points="377.5,927.5225,381.5,937.5225,385.5,927.5225,381.5,931.5225" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="381.5" x2="381.5" y1="240.6563" y2="260.6563"/><polygon fill="#696969" points="377.5,250.6563,381.5,260.6563,385.5,250.6563,381.5,254.6563" style="stroke: #696969; stroke-width: 1.0;"/><line style="stroke: #696969; stroke-width: 1.5;" x1="381.5" x2="381.5" y1="961.5225" y2="981.5225"/><polygon fill="#696969" points="377.5,971.5225,381.5,981.5225,385.5,971.5225,381.5,975.5225" style="stroke: #696969; stroke-width: 1.0;"/><text fill="#000080" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="10" y="1015.0557">©2019</text><a target="_top" xlink:actuate="onRequest" xlink:href="http://www.lifestylesunlimited.com" xlink:show="new" xlink:title="http://www.lifestylesunlimited.com" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="122" x="56" y="1015.0557">LifeStyles Unlimited</text><line style="stroke: #0000FF; stroke-width: 1.0;" x1="56" x2="178" y1="1017.0557" y2="1017.0557"/></a><text fill="#000080" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="283" x="182" y="1015.0557">| Generated Sun May 12 17:24:15 CDT 2019</text><!--
+@startuml lead-investor-program
+
+
+skinparam {
+  BorderColor Red
+  PathHoverColor Blue
+}
+
+skinparam Title {
+  FontColor Navy
+  BackgroundColor PaleGoldenRod
+  BorderColor Navy
+  BorderRoundCorner 20
+  FontSize 24
+}
+
+skinparam activity {
+  BackgroundColor Ivory
+  BorderColor CornflowerBlue
+  BorderThickness 1
+  FontColor DimGray
+  
+
+  Arrow {
+    Color dimgray
+    FontColor dimgray
+  }
+
+  Start {
+    Color PHYSICAL
+  }
+
+  End {
+    Color Coral
+  }
+
+  Diamond {
+    BackgroundColor Ivory
+    BorderColor CornflowerBlue
+    FontColor DarkGray
+  }
+
+  BackgroundColor<< Exception >> Red
+	BorderColor<< Exception >> White
+}
+
+skinparam Swimlane {
+  BorderColor CornflowerBlue 
+}
+
+skinparam Partition {
+  BackgroundColor Ivory
+  BorderColor CornflowerBlue
+  BorderThickness 1
+  FontColor CornflowerBlue
+  FontSize 16
+  BorderRoundCorner 20
+}
+
+skinparam Note {
+  BackgroundColor LightSteelBlue
+  BorderColor CornflowerBlue
+  FontColor White
+}
+
+skinparam Legend {
+  BackgroundColor LightSteelBlue
+  BorderColor CornflowerBlue
+  FontColor White
+}
+
+skinparam Footer {
+  FontColor Navy
+}
+
+
+left header 
+	<font color=Navy size=24>[[../index.svg?sanitize=true ⌂ Home]]</font>
+endheader
+
+
+	Title Lead Investor Program
+
+	start
+
+	[[preferred-investor-group-program.svg?sanitize=true]]#LightSkyBlue:preferred investor group\n- - - -\nactive membership;		
+	#PHYSICAL:<&dollar> Certification Fee 10,000]
+
+	repeat
+		->paid;
+		:active;
+		fork
+			:SEC rules]
+		fork again
+			:white paper]
+		fork again
+			:passive investor\nchecklist]
+		fork again
+			:lead investor\ncertification track\nclasses;
+		fork again
+			repeat
+			:lead investor\ncertification\nstudy materials]
+			:lead investor\ncertification test]
+			:take test;
+			repeat while (pass with 100%)->no
+			:certified;
+		fork again
+			:<&clock> 1 year>
+		end fork
+
+		:inactive;
+
+		#PHYSICAL:<&dollar> Annual Renewal 5,000
+		- - - -
+		<i>this covers the PIG Renewal]
+	repeat while ()
+
+
+	end
+
+
+left footer 
+	<font size=14>©2019 [[http://www.lifestylesunlimited.com LifeStyles Unlimited]] | Generated Sun May 12 17:24:15 CDT 2019</font>
+endfooter
+
+
+@enduml
+
+PlantUML version 1.2019.03(Sun Mar 10 06:04:44 CDT 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_111-b14
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
