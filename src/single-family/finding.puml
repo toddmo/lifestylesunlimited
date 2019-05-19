@@ -18,11 +18,18 @@
 			[[https://app.lifestylesquest.com]]#LightSkyBlue:quest;
 
 		fork again
-			:real estate agent;
+			:real estate agent
+			----
+			licensed;
 			:access to the mls;
 		fork again
-			:wholesaler;
-			note right: buyer beware
+			:wholesaler
+			----
+			no license
+			----
+			buyer beware -
+			will get you
+			upside down;
 
 		fork again
 			fork
@@ -32,8 +39,10 @@
 			end fork
 			fork
 				:email blast;
+				:reply for package;
+				:package]
 			fork again
-				[[https://www.har.com/lifestyles-realty-dallas-inc/broker_NTREIS-LIRE01]]#LightSkyBlue:lifestyles realty;
+				[[https://www.har.com/lifestyles-realty-dallas-inc/broker_NTREIS-LIRE01]]#LightSkyBlue:lifestyles realty\n----\nalready-analyzed\noff-MLS deals;
 			end fork
 		end fork
 	}

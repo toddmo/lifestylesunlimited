@@ -20,10 +20,12 @@
 			70-75% ARV
 			====
 			6-16.5% Interest;
-		fork again
-			
-
 		end fork
+
+		if(used agent(s)) then (yes)
+			:seller pays all
+			RE commission;
+		endif
 
 	end
 

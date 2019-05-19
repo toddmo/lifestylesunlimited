@@ -8,14 +8,74 @@
 
 	start
 
-		:take photos of all work
-		----
-		* advertising
-		* proof of condition;
+	note right
+		rehab all houses the same
+		fix everything
+		good for 3 years
+	end note
 
-		if(foundation repair) then (yes)
-			:lifetime warranty]
+	partition "Work" {
+		:paint;
+		note right
+			* PPG
+			* safety red
+					rustoleum
+					laminant = satin
+			* stone mason grey
+					valspar color
+					semi-gloss sheen
+			* never paint brick
+		end note
+
+		:countertops;
+		note right
+			butcherblock
+			can sand down / resurface
+			if damaged
+		end note
+
+		:carpet;
+		note right
+
+		end note
+
+		if(old hard wood) then (yes)
+			:resurface;
+		else (no)
+			:flooring;
+			note right
+				square planks
+				glued vinyl 
+				not interlocking
+			end note
 		endif
+
+		:appliances;
+		note right
+			HD Supply
+			stainless steel
+			<i>do not provide frig
+		end note
+	}
+
+	:take photos of all work
+	----
+	* advertising
+	* proof of condition;
+
+
+
+	if(foundation repair) then (yes)
+		:lifetime warranty]
+	endif
+
+	if(hard money) then (yes)
+		:hard money inspector
+		inspects all work;
+		:hard money lendor
+		pays contractor;
+	endif
+
 	end
 
 	!include footer.iuml

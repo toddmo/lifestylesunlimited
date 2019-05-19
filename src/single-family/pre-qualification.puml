@@ -24,7 +24,7 @@
         stop
       endif
       
-      if(credit score > 650) then(no)
+      if(credit score > 620) then(no)
         stop
       endif
       if(bankruptcy < 4 years) then(yes)
@@ -48,6 +48,7 @@
         stop
       endif
       :75-80% lending out}
+      :15% down}
     }
     
   fork again
@@ -57,11 +58,13 @@
       :6-16.5% interest}
       :2-4 month term}
       :closes in 3 days}
+      :will loan to anyone}
     }
 
   fork again
     partition "Rate and Term Refinance Loan" {
       :75%}
+      :how to get out of hard money}
       #Plum:no more out of pocket?;
     }
 
@@ -74,10 +77,15 @@
 
   fork again
     partition "Cash Out Refinance Loan" {
+      :buy it with cash;
       if(6-12 months of "seasoning"\n====\n(being rented out)) then (no)
         stop
       endif
       :pull out 75% of appraised value}
+    }
+  fork again
+    partition "Cash" {
+      :can buy 1 per year;
     }
   end fork
 

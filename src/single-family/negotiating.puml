@@ -7,8 +7,14 @@
 	Title Negotiating
 
 	start
-		:make offer;
-		note right: buy low
+
+	:make offer
+	----
+	buy low;
+
+	:pre-qualifification letter <&arrow-thick-right> ]
+
+	:<&arrow-thick-right> contract]
 
 	end
 

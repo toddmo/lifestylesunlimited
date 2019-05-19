@@ -68,10 +68,6 @@
 
 		if(flooring) then (yes)
 			#PHYSICAL:<&dollar> 1.69 / sq ft]
-			note right
-				square planks
-				glued vinyl 
-			end note
 		else (no)
 		endif
 
@@ -90,14 +86,6 @@
 			#PHYSICAL:<&dollar> 1.85 / sq ft]
 			note right
 				* PPG
-				* safety red
-				   rustoleum
-					 laminant = satin
-				* stone mason grey
-				   valspar color
-				   semi-gloss sheen
-				* never paint brick
-				
 			end note
 		else (no)
 		endif

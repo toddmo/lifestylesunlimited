@@ -17,7 +17,9 @@
 		fork again
 			:lenders;
 		fork again
-			:real estate agents / brokers;
+			:real estate agents / brokers
+			----
+			20 of them;
 		fork again
 			:home inspectors
 			----
@@ -33,15 +35,21 @@
 		fork again
 			:termite inspector;
 		fork again
-			:property management;
+			:property management
+			----
+			out of town deals;
 		fork again
-			:tenant screening company;
+			:tenant screening company
+			----
+			NTN $15 & charge $50;
 		fork again
 			:attorney
 			----
-			understands real estate;
+			real estate expert;
 		fork again
-			:cpa;
+			:cpa
+			----
+			real estate expert;
 		fork again
 			:business checking
 			----
