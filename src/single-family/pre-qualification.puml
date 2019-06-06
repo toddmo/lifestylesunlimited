@@ -8,86 +8,34 @@
 
 	start
 
-  fork
+  if(  debt / income >= 45%) then(yes)
+    stop
+  endif
+  
+  if(self-employed) then (yes)
+    if(2 years profit tax returns) then(no)
+      stop
+    endif
+  elseif(years employed > 2) then(no)
+    stop
+  endif
+  
+  if(credit score > 620) then(no)
+    stop
+  endif
+  if(bankruptcy < 4 years) then(yes)
+    stop
+  endif
+  if(foreclosure < 7 years) then(yes)
+    stop
+  endif
+  if(short sale / deed-in-lieu < 4 years) then(yes)
+    stop
+  endif
+  if(late mortgage payment < 12 months) then(yes)
+    stop
+  endif
 
-    partition Conventional {
-
-      if(  debt / income <= 50%) then(no)
-        stop
-      endif
-      
-      if(self-employed) then (yes)
-        if(2 years profit tax returns) then(no)
-          stop
-        endif
-      elseif(years employed > 2) then(no)
-        stop
-      endif
-      
-      if(credit score > 620) then(no)
-        stop
-      endif
-      if(bankruptcy < 4 years) then(yes)
-        stop
-      endif
-      if(foreclosure < 7 years) then(yes)
-        stop
-      endif
-      if(short sale / deed-in-lieu < 4 years) then(yes)
-        stop
-      endif
-      if(late mortgage payment < 12 months) then(yes)
-        stop
-      endif
-
-    }
-
-  fork again
-    partition "Fannie Mae Purchase Money Mortgage" {
-      if(house in perfect condition) then (no)
-        stop
-      endif
-      :75-80% lending out}
-      :15% down}
-    }
-    
-  fork again
-    partition "Hard Money Loan" {
-      :70% ARV}
-      note right: don't do 75%\nuntil refi
-      :6-16.5% interest}
-      :2-4 month term}
-      :closes in 3 days}
-      :will loan to anyone}
-    }
-
-  fork again
-    partition "Rate and Term Refinance Loan" {
-      :75%}
-      :how to get out of hard money}
-      #Plum:no more out of pocket?;
-    }
-
-  fork again
-    partition "Delayed Financing" {
-      #Plum:offer cash?;
-      :75-80% of all in cost}
-      :get all money back minus repairs}
-    }
-
-  fork again
-    partition "Cash Out Refinance Loan" {
-      :buy it with cash;
-      if(6-12 months of "seasoning"\n====\n(being rented out)) then (no)
-        stop
-      endif
-      :pull out 75% of appraised value}
-    }
-  fork again
-    partition "Cash" {
-      :can buy 1 per year;
-    }
-  end fork
 
   :apply;
 

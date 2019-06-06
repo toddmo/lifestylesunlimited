@@ -1,0 +1,141 @@
+@startuml listing-agents
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title Using Listing Agents
+
+	start
+
+	note right
+		a listing agent is:
+		----
+		* licensed
+		* gets paid twice as much to sell to you as the selling agent.
+		* is free to the investor (seller pays commission)
+		* access to out of town sellers
+		* access to foreclosures, pre-foreclosures, etc
+		* access to off market deals
+		* access to REOs
+		* knows the seller
+		* has seen the property
+		* can answer questions about condition
+		* knows the reason the seller is selling
+		* can get contracts signed faster
+		** coordinates with title company
+		** coordinates with mortgage company
+		** set up inspection;
+	end note
+
+	partition "Find Agents" {
+		repeat
+			fork
+				[[http://bigyellow.com]]#LightSkyBlue:<&globe> bigyellow.com;
+			fork again
+				[[http://har.com]]#LightSkyBlue:<&globe> har.com;
+
+			end fork
+
+			if(has many properties) then (no)
+				stop
+			endif
+			if(has properties < 120k) then (no)
+				stop
+			endif
+			if(has 3/2/2) then (no)
+				stop
+			endif
+			
+			:add agent to spreadsheet;
+		repeat while (< 20 agents)
+	}
+
+	partition "Contact Agents" {
+
+		repeat
+
+			:<&timer> M-F 30-60 minutes
+			call 8-10 agents
+			2-5 minutes per call]
+
+			:make phone call;
+
+			:introduce yourself
+			----
+			* lifestyles unlimited member
+			* a qualified, educated investor
+			* deal may pay double
+			** won't split commission
+						with buyer's agent;
+
+			note right
+				“Hi, my name is ________ and I will be looking to purchase some additional rental property in the next couple of months
+				or so. I am trying to locate some real estate agents to help me locate profitable properties. I am looking for agents that
+				actually go out and get new listings, not someone who just patrols the MLS computer. Are you a real listing agent and
+				would you like me to call you back in one month to help me start locating some investment property?”
+			end note
+
+			if(their answer) then (no)
+				stop
+			endif
+
+			:see if they are serious;
+
+			note right
+				“I don’t have the answers to those questions yet, in fact I won’t until about a month from now. I know my mentors do
+				everything from single-family to 300 plus unit apartments. However, when I call you back next month I will have all of
+				those answers for you. Are you sure it is still OK to call you back in one month?”
+			end note
+			
+			: get to know them
+			----
+			* are you a listing agent?
+			* do you go out and get new listings?
+			* do you work with investors?
+			* are you willing to look for deals for me?
+			* confident?
+			* kind?;
+
+
+
+			:state your criteria
+			----
+			3/2/2
+			< $120,000
+			< 30 min of my home;
+			if(have matching properties) then (yes)
+				:access the mls;
+			else (no)
+				:ask for referral;
+			endif
+		repeat while (called all agents)->no
+		->yes;
+	}
+
+	:respond to phone calls < 30 minutes;
+	:call back in a month;
+	note right
+		hello mr. agent, my name is me,
+		i'm a re investor and we spoke last month.
+		i'm pre-approved and I'm ready to start 
+		making offers on properties,
+		do you have a few minutes to talk 
+		about the type of deals I'm looking for?
+	end note
+	:exclusivity agreement]
+	if(investor friendly) then (no)
+		note right
+			just pertains to their properties
+			not all deals over a period of time
+		end note
+		stop
+	endif
+	:sign;
+
+
+	end
+
+	!include footer.iuml
+
+@enduml

@@ -8,24 +8,78 @@
 
 	start
 
-		fork
-			:Fannie Mae Purchase
-			Money Mortgage
-			====
-			75-80%;
-		fork again
-			:Hard Money Loan
-			Private Money Mortgage
-			====
-			70-75% ARV
-			====
-			6-16.5% Interest;
-		end fork
+  fork
 
-		if(used agent(s)) then (yes)
-			:seller pays all
-			RE commission;
-		endif
+    partition "Fannie Mae\nPurchase Money Mortgage" {
+      if(house in perfect condition) then (no)
+        stop
+      endif
+      note right
+        most expensive way
+      end note
+      :75-80% loan to value}
+      :30 year amortization}
+      :20-25% down + rehab + closing}
+      :2% reserve}
+    }
+    
+  fork again
+    partition "Hard Money Loan\nPrivate Money Mortgage" {
+      :70% ARV}
+      note right: don't do 75%\nuntil refi
+      :6-16.5% interest}
+      :2-4 month term}
+      :closes in 3 days}
+      :will loan to anyone}
+    }
+
+    partition "Fannie Mae\nRate and Term Refinance Loan" {
+      :how to get out of hard money}
+      note right
+        they don't call loans
+        the interest rate is lower
+        del said on first 2 properties
+        80 without mortgage insurance
+        85 with mortgage insurance
+      end note
+      :75%}
+      :4-4.5% interest}
+      :30 year amortization}
+      #Plum:no more out of pocket?;
+    }
+
+  fork again
+    #PHYSICAL:<&dollar> cash]
+    note right
+      can buy 
+      1 per year
+    end note
+
+    if(6 months since close\nand property 1-6) then (yes)
+			partition "Fannie Mae\nCash Out Refinance Loan" {
+				:6-12 months of "seasoning"\n====\n(being rented out)}
+				:pull out 75% of appraised value
+				(this is pulling out more)}
+			}
+    else (no)
+      partition "Fannie Mae\nDelayed Financing" {
+        :75-80% of appraised value 
+        or all in cost,
+        whichever is less}
+        :get all money back minus repairs}
+      }
+    endif
+  end fork
+
+	if(used agent(s)) then (yes)
+		:seller pays all
+		RE commission;
+	endif
+
+	:take selfie in front of house]
+	:email selfie to
+	all real estate agents;
+
 
 	end
 

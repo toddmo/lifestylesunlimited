@@ -29,7 +29,12 @@
 			fork again
 				[[../single-family/team-building.svg?sanitize=true]]#LightSkyBlue:build team;
 			fork again
-				[[credit-cards.svg?sanitize=true]]#LightSkyBlue:build credit;
+				[[credit-cards.svg?sanitize=true]]#LightSkyBlue:repair / build credit;
+			fork again
+				:get your money liquid
+				----
+				401K
+				Investments;
 			fork again
 				partition saving {
 					repeat
@@ -46,8 +51,9 @@
 					->yes;
 				}
 			end fork
-			[[legal.svg?sanitize=true]]#LightSkyBlue:structure legal;
+			#PHYSICAL:<&dollar> separate bank account]
 			if(have > 50,000) then (yes)
+				[[legal.svg?sanitize=true]]#LightSkyBlue:structure legal;
 				[[../multi-family/multi-family-deal.svg?sanitize=true]]#LightSkyBlue:do (another)\nmulti-family deal;
 			else (no)
 				[[../single-family/single-family-deal.svg?sanitize=true]]#LightSkyBlue:do (another)\nsingle-family deal;

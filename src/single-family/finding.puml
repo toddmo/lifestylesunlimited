@@ -10,27 +10,74 @@
 
 	partition Finding {
 		fork
-			partition "find it myself" {
-				[[http://realestate.sabor.com]]#LightSkyBlue:<&globe> sabor.com;
+			
+			partition "find it myself\ntakes a great deal of time\ndoes not leverage other people's time, money and knowledge" {
+				fork
+					[[http://realestate.sabor.com]]#LightSkyBlue:<&globe> sabor.com;
+				fork again
+					[[http://har.com]]#LightSkyBlue:<&globe> har.com;
+				fork again
+					[[http://www.real-estate-byowner.com]]#LightSkyBlue:<&globe> real-estate-byowner.com;
+				fork again
+					[[http://www.realtor.com]]#LightSkyBlue:<&globe> realtor.com;
+				fork again
+					[[http://www.erealty.com]]#LightSkyBlue:<&globe> erealty.com;
+				fork again
+					[[http://www.redfin.com]]#LightSkyBlue:<&globe> redfin.com;
+				fork again
+					[[http://www.hubzu.com]]#LightSkyBlue:<&globe> hubzu.com;
+				fork again
+					[[https://www.postbankruptcyreport.com]]#LightSkyBlue:<&globe> courthouse leads;
+				fork again
+					:go to courthouse
+					----
+					get lists of foreclosures;
+				fork again
+					:add name on REO lists
+					----
+					real estate they own;
+				fork again
+					:drive thru neighborhoods
+					----
+					distressed property / owner:
+					* overgrown lawn
+					* newspapers stacked up
+					* damaged siding
+					* damaged roof
+					* broken window;
+				fork again
+					:farming
+					----
+					put flyers on door handles;
+				fork again
+					:direct mailing
+					----
+					post cards / flyers;
+				fork again
+					:put up signs
+					----
+					<i>"I buy houses";
+				end fork
 			}
 
 		fork again
 			[[https://app.lifestylesquest.com]]#LightSkyBlue:quest;
 
 		fork again
-			:real estate agent
-			----
-			licensed;
-			:access to the mls;
+			[[listing-agents.svg?sanitize=true]]#LightSkyBlue:use listing agents;
 		fork again
 			:wholesaler
 			----
 			no license
 			----
+			experienced investor only
 			buyer beware -
 			will get you
 			upside down;
-
+		fork again
+			:other investors
+			----
+			networking;
 		fork again
 			fork
 				[[challenge-program.svg?sanitize=true]]#LightSkyBlue:challenge program;

@@ -15,6 +15,11 @@
 	[[evaluating.svg?sanitize=true]]#LightSkyBlue:analyse;
 	:visit;
 	[[negotiating.svg?sanitize=true]]#LightSkyBlue:contract;
+	note right
+		need to make money
+		on the front end,
+		not the back end
+	end note
 	[[due-diligence.svg?sanitize=true]]#LightSkyBlue:inspect;
 	[[closing.svg?sanitize=true]]#LightSkyBlue:close;
 	fork
@@ -48,9 +53,30 @@
 			repeat while(keep?)->yes
 			->no;
 	fork again
-		:1-3 years>
+		:2-3 years>
+		note right
+			must hold 2 years as a rental
+			to be able to depreciate
+			where the rental income 
+			is tax free on a
+			1031 exchange
+		end note
 	end fork
-	[[selling.svg?sanitize=true]]#LightSkyBlue:sell;
+	->exit capital
+	take capital gain;
+	fork
+		[[selling.svg?sanitize=true]]#LightSkyBlue:sell;
+	fork again
+		:refinance property;
+	end fork
+	fork
+		#PHYSICAL:<&dollar> cash -> cash account;
+	fork again
+		:1031 Exchange
+		----
+		make it tax free]
+	end fork
+
 	end
 
 	!include footer.iuml
