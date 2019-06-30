@@ -1,0 +1,184 @@
+@startuml reasons-for-failure
+
+	!include theme.iuml
+
+	!include header.iuml
+
+	Title The 31 Major Causes of Failure
+
+	note 
+		From <i>Think And Grow Rich
+		----
+		Measure yourself point by point
+		----
+		It will be helpful if you get someone who knows you well
+		to go over this list with you 
+		and help you to analyse yourself by each of these causes of failure
+		----
+		Most people cannot see themselves as others see them
+	end note
+
+	start
+
+	if(01. <b>Unfavorable Hereditary Background\n----\n(low IQ)) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(02. <b>Lack of a Well-Defined Purpose in Life\n----\n98% of people have no such aim\n----\nthis was the major cause of their failure) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(03. <b>Lack of Ambition to Aim Above Mediocrity\n----\ndo not want to get ahead in life\n----\nunwilling to pay the price) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(04. <b>Insufficient Education\n----\nmay be overcome with relative ease\n----\nyou are paid for what you do with what you know) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(05. <b>Lack of Self-Discipline\n----\nYou must control all negative qualities\n----\nbefore you can control conditions,\nyou must first control yourself\n----\nself-mastery is the hardest job you'll ever do\n----\nif you do not conquer yourself,\nyou will be conquered by yourself) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(06. <b>Ill Health\n----\n- overeating of foods not conducive to good health\n- wrong habits of thought, or negative thinking\n- wrong use of, or over-indulgence in, sex\n- lack of proper physical exercise\n- inadequate supply of fresh air, due to improper breathing) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(07. <b>Unfavorable Environmental Influences During Childhood\n----\nmost people who have criminal tendencies\naquire them as a result of bad environment\nand improper associates during their childhood or youth) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(08. <b>Procrastination\n----\none of the most common causes of failure\n----\nwe are waiting for "the time to be right"\nto start doing something worthwhile\n----\ndo not wait! the time will never be "just right"!\n----\nstart where you stand) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(09. <b>Lack of Persistence\n----\nmost of us are good starters, but poor finishers,\nof everyting we begin\n----\npeople are prone to give up at the first signs of defeat\n----\nthere is no substitute for persistence\n----\nfailure cannot cope with persistence) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(10. <b>Negative Personality\n----\n<b>success</b> come through the application of <b>power</b>\nand <b>power</b> is obtained through the <b>cooperative efforts</b> of other people\na negative personality will not induce <b>cooperation</b>) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(11. <b>Lack of Control of Sexual Urges\n----\nsexual energy is the most powerful of all stimuli that move people into action\n----\nif it is controlled, it can be converted into other creative channels) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(12. <b>Uncontrolled Desire for "Something for Nothing"\n----\nthe gambling instinct drives millions of people to failure\n----\nevidence of this may be found in the stock market crash of 1929\n----\nthat is why Hill used the term "gambling" when he referred to the stock market) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(13. <b>Lack of a Well-Defined Power of Decision\n----\nthose who fail reach decisions very slowly and change them frequently, and quickly\n----\n<b>indecision</b> and <b>procrastination</b> are twins\nwhere one is found, the other is also usually found\nkill off this pair before they completely tie you to the treadmill of failure) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(14. <b>One or More of the Six Basic Fears\n----\n- fear of poverty\n- fear of criticism\n- fear of ill-health\n- fear of loss of love\n- fear of old age\n- fear of death) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(15. <b>Wrong Selection of a Mate in Marriage\n----\nthis is a most common cause of failure\n----\nunless this relationship is harmonious, failure is likely to follow\n----\nmoreover, it will be a form of failure that destoys ambition) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(16. <b>Over-Caution\n----\nthe person who takes no chances generally has\nto take whatever is left when others are through choosing\n----\nover-caution is as bad as under-caution\nboth are extremes to be guarded against\n----\nlife itself is filled with the element of chance) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(17. <b>Wrong Selection of Associates in Business\n----\nyou should use great care to select an employer who is an inspiration\nand who is intelligent and successful\n----\nwe emulate those with whom we associate most closely\n----\npick an employer who is worth emulating) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(18. <b>Superstition and Prejudice\n----\nsuperstition is a form of fear. it is also a sign of ignorance\n----\nsuccessful people keep open minds, and are afraid of nothing) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(19. <b>Wrong Selection of a Vocation\n----\nyou cannot have outstanding success in work that you do not like) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(20. <b>Lack of Concentration of Effort\n----\nthe jack of all trades seldom is good at any\n----\nconcentrate all of your efforts on one definite chief aim) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(21. <b>The Habit of Indiscriminate Spending\n----\nyou cannot succeed if you are eternally in fear of poverty\n----\nform the habit of systematic saving\nby putting aside a definite percentage of your income\n----\nmoney in the bank gives you a very safe foundation of courage\nwhen bargaining for the sale of personal services\n----\nwithout money, you must take what you're offered,\nand be glad to get it) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(22. <b>Lack of Enthusiasm\n----\nwithout enthusiasm, you cannot be convincing.\n----\nmoreover, enthusiasm is contagious, and the person who has it under control\nis generally welcome in any group of people) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(23. <b>Intolerance\n----\nthe person with a closed mind on any subject seldom gets ahead\n----\nintolerance means that you have stopped aquiring knowledge\n----\nthe most damaging forms of intolerance\nare those connected with religious, racial and political differences of opinion) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(24. <b>Intemperance\n----\nthe most damaging forms of intemperance are those connected with\n- over-eating\n- alcohol\n- drugs\n- sexual activities) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(25. <b>Inability to Cooperate with Others\n----\nMore people lose their positions, and their big opportunities in life,\nbecause of this fault, than for all other reasons combined\n----\nit is a fault that no well-informed businessperson or leader will tolerate) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(26. <b>Possession of Power that was not Aquired Through Self-Effort\n----\npower in the hands of one who did not aquire it gradually is often fatal to success\n----\nquick riches are more dangerous than poverty) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(27. <b>Intentional Dishonesty\n----\nthere is no substitute for honesty\n----\nthere is no hope for you if you are dishonest by choice) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(28. <b>Egotism and Vanity\n----\nthese qualities serve as red lights that warn others to keep away\n----\nthey are fatal to success) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(29. <b>Guessing Instead of Thinking\n----\nmost people are too indifferent or lazy to aquire facts with which to think accurately\nthey prefer to act on opinions created by guesswork or snap judgements) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(30. <b>Lack of Capital\n----\nthis is a common cause of failure among those who start out in business for the first time\n----\nyou must have a sufficient reserve of capital\nto absorb the shock of your mistakes\nand to carry you over until you have established a reputation) then (yes)
+		stop
+	else (no)
+	endif
+
+	if(31. <b>Here, Name any Particular Cause of Failure\n----\nfrom which you have suffered\nthat has not been included in the foregoing list) then (yes)
+		stop
+	else (no)
+	endif
+
+	:Success!;
+
+	end
+
+	!include footer.iuml
+
+@enduml

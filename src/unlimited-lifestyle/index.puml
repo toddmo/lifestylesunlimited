@@ -31,6 +31,8 @@
 			fork again
 				[[credit-cards.svg?sanitize=true]]#LightSkyBlue:repair / build credit;
 			fork again
+				:network;
+			fork again
 				:get your money liquid
 				----
 				401K
@@ -41,7 +43,7 @@
 						:work;
 						:paycheck;
 						fork
-							:save >= 60% of earnings\n<i>2% interest;
+							[[https://www.viobank.com/high-yield-savings]]#LightSkyBlue:save >= 60% of earnings\n<i>2.5% interest;
 						fork again
 							:live off <= 40% of earnings;
 							floating note left:<i>act your wage
